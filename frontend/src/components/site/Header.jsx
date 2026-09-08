@@ -6,7 +6,7 @@ import { EASE } from "@/components/site/Reveal";
 
 const NAV_LINKS = [
     { label: "Home", href: "#home", testid: "header-nav-home-link" },
-    { label: "About", href: "#about", testid: "header-nav-about-link" },
+    { label: "About", href: "#joint-venture", testid: "header-nav-about-link" },
     { label: "How It Works", href: "#how-it-works", testid: "header-nav-how-it-works-link" },
     { label: "Technology", href: "#technology", testid: "header-nav-technology-link" },
     { label: "Buy From Us", href: "#buy-from-us", testid: "header-nav-buy-from-us-link" },
