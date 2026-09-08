@@ -1,21 +1,36 @@
 import { useEffect, useRef, useState } from "react";
-import { animate, useInView } from "framer-motion";
+import { animate } from "framer-motion";
 import { Reveal, Chapter, EASE } from "@/components/site/Reveal";
 
 const Counter = ({ to }) => {
     const ref = useRef(null);
-    const inView = useInView(ref, { once: true, margin: "-80px" });
+    const started = useRef(false);
     const [val, setVal] = useState(0);
 
     useEffect(() => {
-        if (!inView) return;
-        const controls = animate(0, to, {
-            duration: 2.4,
-            ease: EASE,
-            onUpdate: (v) => setVal(Math.round(v)),
-        });
-        return () => controls.stop();
-    }, [inView, to]);
+        const el = ref.current;
+        if (!el) return;
+        const start = () => {
+            if (started.current) return;
+            started.current = true;
+            animate(0, to, {
+                duration: 2.4,
+                ease: EASE,
+                onUpdate: (v) => setVal(Math.round(v)),
+            });
+        };
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    start();
+                    observer.disconnect();
+                }
+            },
+            { threshold: 0.1 }
+        );
+        observer.observe(el);
+        return () => observer.disconnect();
+    }, [to]);
 
     return <span ref={ref}>{val.toLocaleString("en-IN")}</span>;
 };

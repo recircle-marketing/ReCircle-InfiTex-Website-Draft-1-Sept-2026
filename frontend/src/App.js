@@ -42,10 +42,17 @@ const HomePage = () => (
 );
 
 const ScrollToTop = () => {
-    const { pathname } = useLocation();
+    const { pathname, hash } = useLocation();
     useEffect(() => {
+        if (hash) {
+            const timer = setTimeout(() => {
+                const el = document.querySelector(hash);
+                if (el) el.scrollIntoView({ block: "start" });
+            }, 150);
+            return () => clearTimeout(timer);
+        }
         window.scrollTo({ top: 0, left: 0, behavior: "instant" });
-    }, [pathname]);
+    }, [pathname, hash]);
     return null;
 };
 
