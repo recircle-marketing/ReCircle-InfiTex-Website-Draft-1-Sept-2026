@@ -1,13 +1,12 @@
 import { ArrowUpRight } from "lucide-react";
-import { Reveal, Chapter } from "@/components/site/Reveal";
+import { Reveal, Chapter, ImageReveal } from "@/components/site/Reveal";
 
 export default function AboutReCircle() {
     return (
         <section id="about" data-testid="about-recircle-section" className="bg-white py-24 lg:py-32">
             <div className="container-x grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
                 <Reveal>
-                    <div
-                        data-testid="recircle-logo-panel"
+                    <ImageReveal
                         className="flex aspect-[4/3] items-center justify-center rounded-lg border border-[#E3E8EE] bg-white p-12 lg:p-16"
                     >
                         <img
@@ -15,8 +14,9 @@ export default function AboutReCircle() {
                             alt="ReCircle logo"
                             loading="lazy"
                             className="w-full max-w-[360px]"
+                            data-testid="recircle-logo-panel"
                         />
-                    </div>
+                    </ImageReveal>
                 </Reveal>
 
                 <div>

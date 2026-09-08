@@ -1,4 +1,4 @@
-import { Reveal, Chapter } from "@/components/site/Reveal";
+import { Reveal, Chapter, ImageReveal } from "@/components/site/Reveal";
 
 const COLUMNS = [
     {
@@ -35,14 +35,14 @@ export default function Technology() {
                                 data-testid={col.testid}
                                 className="group flex h-full flex-col rounded-lg border border-[#E3E8EE] bg-white p-5 transition-[box-shadow,transform,border-color] duration-500 hover:-translate-y-1.5 hover:border-[#01298A]/30 hover:shadow-[0_24px_60px_-24px_rgba(1,41,138,0.28)]"
                             >
-                                <div className="frame-clip aspect-[16/10]">
+                                <ImageReveal className="frame-clip aspect-[16/10]">
                                     <img
                                         src={col.img}
                                         alt={col.alt}
                                         loading="lazy"
                                         className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.05]"
                                     />
-                                </div>
+                                </ImageReveal>
                                 <div className="flex grow flex-col p-4 pt-8 lg:p-6 lg:pt-9">
                                     <h3 className="type-h3 text-[#01298A]">{col.title}</h3>
                                     <p className="type-body-sm mt-5 text-[#2C2C2C]">{col.body}</p>

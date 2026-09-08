@@ -1,5 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
-import { Reveal, Chapter } from "@/components/site/Reveal";
+import { Reveal, Chapter, ImageReveal } from "@/components/site/Reveal";
 
 export default function AboutAlliance() {
     return (
@@ -43,8 +43,7 @@ export default function AboutAlliance() {
                 </div>
 
                 <Reveal className="order-1 lg:order-2">
-                    <div
-                        data-testid="alliance-logo-panel"
+                    <ImageReveal
                         className="flex aspect-[4/3] items-center justify-center rounded-lg border border-[#E3E8EE] bg-white p-12 lg:p-16"
                     >
                         <img
@@ -52,8 +51,9 @@ export default function AboutAlliance() {
                             alt="Alliance InfiTex logo"
                             loading="lazy"
                             className="w-full max-w-[420px]"
+                            data-testid="alliance-logo-panel"
                         />
-                    </div>
+                    </ImageReveal>
                 </Reveal>
             </div>
         </section>

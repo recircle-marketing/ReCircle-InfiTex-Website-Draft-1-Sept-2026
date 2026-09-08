@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { Layers, Grid3x3, Droplets, Scissors, Shirt, Users } from "lucide-react";
-import { Reveal, Chapter } from "@/components/site/Reveal";
+import { Reveal, Chapter, ImageReveal } from "@/components/site/Reveal";
 
 const ITEMS = [
     { icon: Layers, title: "Yarn Manufacturing", body: "Yarn waste, rejects and production remnants", testid: "surat-item-yarn" },
@@ -17,10 +17,22 @@ export default function WhySurat() {
     useEffect(() => {
         const video = videoRef.current;
         if (!video) return;
-        const tryPlay = () => video.play().catch(() => {});
+        video.defaultMuted = true;
+        video.setAttribute("muted", "");
+        video.muted = true;
+        const tryPlay = () => {
+            const promise = video.play();
+            if (promise) promise.catch(() => {});
+        };
         tryPlay();
         video.addEventListener("canplay", tryPlay);
-        return () => video.removeEventListener("canplay", tryPlay);
+        window.addEventListener("touchstart", tryPlay, { once: true, passive: true });
+        window.addEventListener("scroll", tryPlay, { once: true, passive: true });
+        return () => {
+            video.removeEventListener("canplay", tryPlay);
+            window.removeEventListener("touchstart", tryPlay);
+            window.removeEventListener("scroll", tryPlay);
+        };
     }, []);
 
     return (
@@ -52,8 +64,7 @@ export default function WhySurat() {
                     </div>
 
                     <Reveal delay={0.25} className="shrink-0 lg:w-[400px] xl:w-[440px]">
-                        <div
-                            data-testid="surat-location-video-frame"
+                        <ImageReveal
                             className="frame-clip border border-[#E3E8EE] bg-white shadow-[0_24px_60px_-24px_rgba(1,41,138,0.25)]"
                         >
                             <video
@@ -70,7 +81,7 @@ export default function WhySurat() {
                                 <source src="/assets/surat-location.mp4" type='video/mp4; codecs="avc1.64001f, mp4a.40.2"' />
                                 <source src="/assets/surat-location.webm" type="video/webm" />
                             </video>
-                        </div>
+                        </ImageReveal>
                         <p className="mt-4 flex items-center gap-2.5 text-sm font-medium uppercase tracking-[0.14em] text-[#2C2C2C]/60">
                             <span className="inline-block h-2 w-2 rotate-45 bg-[#11821A]" aria-hidden="true" />
                             Sachin GIDC, Surat, Gujarat

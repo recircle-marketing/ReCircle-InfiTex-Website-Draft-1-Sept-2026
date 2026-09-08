@@ -1,4 +1,4 @@
-import { Reveal, Chapter } from "@/components/site/Reveal";
+import { Reveal, Chapter, ImageReveal } from "@/components/site/Reveal";
 
 const CARDS = [
     {
@@ -53,20 +53,20 @@ export default function JointVenture() {
 
                     <Reveal delay={0.3}>
                         <div className="flex shrink-0 flex-wrap items-center gap-3 sm:gap-5" data-testid="jv-partner-logos">
-                            <div className="flex h-16 items-center rounded-md border border-[#E3E8EE] bg-white px-4 sm:h-24 sm:px-8">
+                            <div className="flex h-20 items-center rounded-md border border-[#E3E8EE] bg-white px-6 transition-[transform,box-shadow] duration-500 hover:-translate-y-1 hover:shadow-[0_16px_40px_-16px_rgba(1,41,138,0.25)] sm:h-28 sm:px-10">
                                 <img
                                     src="/assets/recircle-logo.webp"
                                     alt="ReCircle — joint venture partner"
-                                    className="max-h-10 w-auto sm:max-h-14"
+                                    className="max-h-14 w-auto sm:max-h-20"
                                     data-testid="jv-logo-recircle"
                                 />
                             </div>
                             <span className="type-eyebrow text-[#2C2C2C]/40" aria-hidden="true">+</span>
-                            <div className="flex h-16 items-center rounded-md border border-[#E3E8EE] bg-white px-4 sm:h-24 sm:px-8">
+                            <div className="flex h-20 items-center rounded-md border border-[#E3E8EE] bg-white px-6 transition-[transform,box-shadow] duration-500 hover:-translate-y-1 hover:shadow-[0_16px_40px_-16px_rgba(1,41,138,0.25)] sm:h-28 sm:px-10">
                                 <img
                                     src="/assets/alliance-logo.webp"
                                     alt="Alliance InfiTex — joint venture partner"
-                                    className="max-h-10 w-auto sm:max-h-14"
+                                    className="max-h-14 w-auto sm:max-h-20"
                                     data-testid="jv-logo-alliance-infitex"
                                 />
                             </div>
@@ -81,14 +81,14 @@ export default function JointVenture() {
                                 data-testid={card.testid}
                                 className="group flex h-full flex-col rounded-lg border border-[#E3E8EE] bg-white p-5 transition-[box-shadow,transform,border-color] duration-500 hover:-translate-y-1.5 hover:border-[#01298A]/30 hover:shadow-[0_24px_60px_-24px_rgba(1,41,138,0.28)]"
                             >
-                                <div className="frame-clip aspect-[4/3]">
+                                <ImageReveal className="frame-clip aspect-[4/3]">
                                     <img
                                         src={card.img}
                                         alt={card.alt}
                                         loading="lazy"
                                         className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.06]"
                                     />
-                                </div>
+                                </ImageReveal>
                                 <div className="flex grow flex-col p-4 pt-6">
                                     <span className="type-eyebrow text-[#11821A]">{card.index}</span>
                                     <h3 className="type-h3 mt-4 text-[#01298A]">{card.title}</h3>

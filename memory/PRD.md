@@ -36,6 +36,7 @@ Single-page scrolling landing website for ReCircle infiTex Private Limited (Indi
 - Technology section images (2026-09-08): replaced icon tiles with imagery — AI-generated hyperspectral sorting line photo (tech-sorting.png) on "AI-Based Automated Sorting", client-supplied ClimaOne platform image (climaone.jpg) on "End-to-End Traceability". Header "About" nav link now targets #joint-venture.
 
 - Full mobile QA pass (2026-09-08, 390x844): zero horizontal overflow on home + both legal pages; video autoplays/loops; lightbox, form validation+submit+toast, hamburger navigation, footer all verified. Fixed: capacity counter stuck at 0 (moved from framer useInView to direct IntersectionObserver) and legal-page-to-home anchor links landing at top (hash-aware scroll restore in ScrollToTop). Desktop regression check passed.
+- Polish round 2 (2026-09-08): header CTA hidden below sm breakpoint (kept inside hamburger menu); JV partner logos enlarged (chips h-20→sm:h-28, logos max-h-14→sm:max-h-20) with hover lift; Why Surat video autoplay hardened for real mobile browsers (defaultMuted + muted attribute set via JS, play retries on canplay/touchstart/scroll); new ImageReveal clip+scale scroll animation applied to JV/Technology/Buy cards, About panels and the video frame; Reveal gained a subtle blur-settle; buttons gained hover lift + shadow.
 
 ## Backlog / Next Tasks
 - P0: Wire enquiry form to real email delivery (Resend → info@recircleinfitex.in) when client wants live enquiries.

@@ -58,7 +58,7 @@ export default function Header() {
                 </nav>
 
                 <div className="flex items-center gap-3">
-                    <a href={resolve("#contact")} data-testid="header-contact-cta-button" className="btn-primary whitespace-nowrap !px-4 !py-2.5 !text-sm sm:!px-6 sm:!py-3 sm:!text-base">
+                    <a href={resolve("#contact")} data-testid="header-contact-cta-button" className="btn-primary hidden whitespace-nowrap !px-4 !py-2.5 !text-sm sm:inline-flex sm:!px-6 sm:!py-3 sm:!text-base">
                         Get in Touch
                     </a>
                     <button

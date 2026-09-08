@@ -106,16 +106,16 @@
         @apply mx-auto w-full max-w-[1400px] px-6 lg:px-12;
     }
     .btn {
-        @apply inline-flex cursor-pointer items-center justify-center gap-2.5 rounded-md px-7 py-4 text-base font-medium transition-[background-color,color,border-color,transform] duration-300 active:scale-[0.98];
+        @apply inline-flex cursor-pointer items-center justify-center gap-2.5 rounded-md px-7 py-4 text-base font-medium transition-[background-color,color,border-color,transform,box-shadow] duration-300 hover:-translate-y-0.5 active:scale-[0.98];
     }
     .btn-primary {
-        @apply btn bg-[#01298A] text-white hover:bg-[#01206d];
+        @apply btn bg-[#01298A] text-white hover:bg-[#01206d] hover:shadow-[0_16px_36px_-12px_rgba(1,41,138,0.5)];
     }
     .btn-outline {
         @apply btn border-[1.5px] border-[#01298A] bg-transparent text-[#01298A] hover:bg-[#01298A]/5;
     }
     .btn-invert {
-        @apply btn bg-white text-[#01298A] hover:bg-slate-100;
+        @apply btn bg-white text-[#01298A] hover:bg-slate-100 hover:shadow-[0_16px_36px_-12px_rgba(0,0,0,0.4)];
     }
     .btn-ghost-light {
         @apply btn border-[1.5px] border-white/80 bg-transparent text-white hover:bg-white/10;

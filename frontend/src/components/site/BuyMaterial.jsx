@@ -1,4 +1,4 @@
-import { Reveal, Chapter } from "@/components/site/Reveal";
+import { Reveal, Chapter, ImageReveal } from "@/components/site/Reveal";
 
 const PRODUCTS = [
     {
@@ -56,14 +56,14 @@ export default function BuyMaterial() {
                                 data-testid={product.testid}
                                 className="card group flex h-full flex-col overflow-hidden p-5 transition-[box-shadow,border-color] duration-500 hover:border-[#01298A]/30 hover:shadow-[0_24px_60px_-24px_rgba(1,41,138,0.28)]"
                             >
-                                <div className="frame-clip aspect-[16/9]">
+                                <ImageReveal className="frame-clip aspect-[16/9]">
                                     <img
                                         src={product.img}
                                         alt={product.alt}
                                         loading="lazy"
                                         className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.05]"
                                     />
-                                </div>
+                                </ImageReveal>
                                 <div className="flex grow flex-col p-4 pt-7 lg:p-6 lg:pt-8">
                                     <span className="type-eyebrow text-[#11821A]">{product.badge}</span>
                                     <h3 className="type-h3 mt-4 text-[#01298A]">{product.title}</h3>
