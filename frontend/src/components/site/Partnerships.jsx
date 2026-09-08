@@ -1,16 +1,15 @@
-import { Handshake, Recycle } from "lucide-react";
 import { Reveal, Chapter } from "@/components/site/Reveal";
 
 const PARTNERS = [
     {
-        icon: Handshake,
+        logo: "/assets/alliance-fibres.png",
         index: "01",
         title: "Alliance Fibres Limited",
         body: "A strategic partner with 20 years of experience in recycled polyester fibre and yarn production. Alliance Fibres has signed a strategic offtake agreement to purchase 100% of the mechanical recycling-grade polyester produced by the facility.",
         testid: "partner-card-alliance-fibres",
     },
     {
-        icon: Recycle,
+        logo: "/assets/caif-logo.webp",
         index: "02",
         title: "Circular Apparel Innovation Factory (CAIF) by Intellecap",
         body: "CAIF supports the project and works to accelerate the shift to a circular and sustainable apparel industry through innovation, collaboration and scalable solutions across the textile value chain.",
@@ -36,11 +35,15 @@ export default function Partnerships() {
                                 data-testid={partner.testid}
                                 className="group h-full rounded-lg border border-[#E3E8EE] bg-white p-8 transition-[box-shadow,transform,border-color] duration-500 hover:-translate-y-1.5 hover:border-[#01298A]/30 hover:shadow-[0_24px_60px_-24px_rgba(1,41,138,0.28)] lg:p-12"
                             >
-                                <div className="flex items-center justify-between">
-                                    <span className="flex h-14 w-14 items-center justify-center rounded-md bg-[#01298A] text-white transition-colors duration-500 group-hover:bg-[#11821A]">
-                                        <partner.icon size={26} strokeWidth={1.6} />
-                                    </span>
-                                    <span className="type-eyebrow text-[#2C2C2C]/40">{partner.index}</span>
+                                <div className="flex items-center justify-between gap-6">
+                                    <img
+                                        src={partner.logo}
+                                        alt={`${partner.title} logo`}
+                                        loading="lazy"
+                                        className="h-12 w-auto max-w-[240px] object-contain object-left lg:h-14"
+                                        data-testid={`${partner.testid}-logo`}
+                                    />
+                                    <span className="type-eyebrow shrink-0 text-[#2C2C2C]/40">{partner.index}</span>
                                 </div>
                                 <h3 className="type-h3 mt-8 text-[#01298A]">{partner.title}</h3>
                                 <p className="type-body-sm mt-5 text-[#2C2C2C]">{partner.body}</p>

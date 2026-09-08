@@ -28,10 +28,9 @@ Single-page scrolling landing website for ReCircle infiTex Private Limited (Indi
 - All 15 sections built and verified via screenshots + interactive Playwright flows (lightbox open/close, form validation errors, successful submit with toast).
 - Kinetic hero (parallax bg, staggered mask reveal), kinetic 1,200 MT counter, slow editorial marquee, numbered manifesto chapters 01–12, scroll-reveal micro-interactions, Lenis momentum scrolling, grain texture.
 - 6 AI-generated placeholder photos in documentary style (PPE-compliant) pending client Elementor assets.
-- Placeholder panel in About ReCircle awaiting final ReCircle logo from client.
+- Client logos integrated (2026-09-08): real ReCircle logo in About ReCircle panel; JV partner logos (ReCircle + Alliance infiTex) right of the Joint Venture section title; Alliance Fibres + CAIF logos on the Strategic Partnerships cards.
 
 ## Backlog / Next Tasks
-- P0: Swap in final ReCircle logo (client to supply) in AboutReCircle.jsx.
 - P0: Wire enquiry form to real email delivery (Resend → info@recircleinfitex.in) when client wants live enquiries.
 - P1: Replace AI placeholder photos with real facility photography.
 - P1: Mobile viewport QA pass on physical devices.

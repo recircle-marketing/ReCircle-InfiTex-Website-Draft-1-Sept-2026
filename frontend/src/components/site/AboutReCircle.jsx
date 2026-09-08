@@ -8,13 +8,14 @@ export default function AboutReCircle() {
                 <Reveal>
                     <div
                         data-testid="recircle-logo-panel"
-                        className="flex aspect-[4/3] flex-col items-center justify-center gap-5 rounded-lg border border-[#E3E8EE] bg-[#F4F6F8] p-10"
+                        className="flex aspect-[4/3] items-center justify-center rounded-lg border border-[#E3E8EE] bg-white p-12 lg:p-16"
                     >
-                        {/* PLACEHOLDER: final ReCircle full-colour lockup to be supplied by the client */}
-                        <span className="text-5xl font-bold tracking-[-0.02em] text-[#01298A] lg:text-6xl">ReCircle</span>
-                        <span className="type-eyebrow text-center !text-xs text-[#2C2C2C]/50">
-                            ReCircle logo — final lockup to be supplied
-                        </span>
+                        <img
+                            src="/assets/recircle-logo.webp"
+                            alt="ReCircle logo"
+                            loading="lazy"
+                            className="w-full max-w-[360px]"
+                        />
                     </div>
                 </Reveal>
 

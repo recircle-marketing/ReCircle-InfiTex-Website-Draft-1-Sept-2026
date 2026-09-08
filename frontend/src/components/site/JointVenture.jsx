@@ -31,22 +31,46 @@ export default function JointVenture() {
     return (
         <section id="joint-venture" data-testid="joint-venture-section" className="bg-[#F4F6F8] py-24 lg:py-32">
             <div className="container-x">
-                <div className="max-w-3xl">
-                    <Reveal>
-                        <Chapter index="02" label="The Joint Venture" />
-                    </Reveal>
-                    <Reveal delay={0.1}>
-                        <h2 className="type-h2 mt-9 text-black">Two Companies. One Recovery Ecosystem.</h2>
-                    </Reveal>
-                    <Reveal delay={0.2}>
-                        <p className="type-body-sm mt-7 text-[#2C2C2C]">
-                            ReCircle infiTex Private Limited is a joint venture between ReCircle and Alliance
-                            InfiTex, a subsidiary of Alliance Fibres Limited. The venture combines ReCircle&apos;s
-                            supply chain traceability and recovery ecosystem with Alliance InfiTex&apos;s
-                            textile-to-textile manufacturing capabilities. The Circular Apparel Innovation Factory
-                            (CAIF) by Intellecap supports the project. The partnership was signed during Bharat Tex
-                            2026.
-                        </p>
+                <div className="flex flex-col gap-12 lg:flex-row lg:items-end lg:justify-between">
+                    <div className="max-w-3xl">
+                        <Reveal>
+                            <Chapter index="02" label="The Joint Venture" />
+                        </Reveal>
+                        <Reveal delay={0.1}>
+                            <h2 className="type-h2 mt-9 text-black">Two Companies. One Recovery Ecosystem.</h2>
+                        </Reveal>
+                        <Reveal delay={0.2}>
+                            <p className="type-body-sm mt-7 text-[#2C2C2C]">
+                                ReCircle infiTex Private Limited is a joint venture between ReCircle and Alliance
+                                InfiTex, a subsidiary of Alliance Fibres Limited. The venture combines ReCircle&apos;s
+                                supply chain traceability and recovery ecosystem with Alliance InfiTex&apos;s
+                                textile-to-textile manufacturing capabilities. The Circular Apparel Innovation Factory
+                                (CAIF) by Intellecap supports the project. The partnership was signed during Bharat Tex
+                                2026.
+                            </p>
+                        </Reveal>
+                    </div>
+
+                    <Reveal delay={0.3}>
+                        <div className="flex shrink-0 items-center gap-4 sm:gap-5" data-testid="jv-partner-logos">
+                            <div className="flex h-20 items-center rounded-md border border-[#E3E8EE] bg-white px-6 sm:h-24 sm:px-8">
+                                <img
+                                    src="/assets/recircle-logo.webp"
+                                    alt="ReCircle — joint venture partner"
+                                    className="max-h-12 w-auto sm:max-h-14"
+                                    data-testid="jv-logo-recircle"
+                                />
+                            </div>
+                            <span className="type-eyebrow text-[#2C2C2C]/40" aria-hidden="true">+</span>
+                            <div className="flex h-20 items-center rounded-md border border-[#E3E8EE] bg-white px-6 sm:h-24 sm:px-8">
+                                <img
+                                    src="/assets/alliance-logo.webp"
+                                    alt="Alliance InfiTex — joint venture partner"
+                                    className="max-h-12 w-auto sm:max-h-14"
+                                    data-testid="jv-logo-alliance-infitex"
+                                />
+                            </div>
+                        </div>
                     </Reveal>
                 </div>
 
