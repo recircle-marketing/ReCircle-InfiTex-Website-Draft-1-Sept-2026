@@ -52,21 +52,21 @@ export default function JointVenture() {
                     </div>
 
                     <Reveal delay={0.3}>
-                        <div className="flex shrink-0 flex-wrap items-center gap-3 sm:gap-5" data-testid="jv-partner-logos">
-                            <div className="flex h-20 items-center rounded-md border border-[#E3E8EE] bg-white px-6 transition-[transform,box-shadow] duration-500 hover:-translate-y-1 hover:shadow-[0_16px_40px_-16px_rgba(1,41,138,0.25)] sm:h-28 sm:px-10">
+                        <div className="flex shrink-0 flex-nowrap items-center gap-2.5 sm:gap-5" data-testid="jv-partner-logos">
+                            <div className="flex h-[68px] items-center rounded-md border border-[#E3E8EE] bg-white px-4 transition-[transform,box-shadow] duration-500 hover:-translate-y-1 hover:shadow-[0_16px_40px_-16px_rgba(1,41,138,0.25)] sm:h-28 sm:px-10">
                                 <img
                                     src="/assets/recircle-logo.webp"
                                     alt="ReCircle — joint venture partner"
-                                    className="max-h-14 w-auto sm:max-h-20"
+                                    className="max-h-10 w-auto sm:max-h-20"
                                     data-testid="jv-logo-recircle"
                                 />
                             </div>
                             <span className="type-eyebrow text-[#2C2C2C]/40" aria-hidden="true">+</span>
-                            <div className="flex h-20 items-center rounded-md border border-[#E3E8EE] bg-white px-6 transition-[transform,box-shadow] duration-500 hover:-translate-y-1 hover:shadow-[0_16px_40px_-16px_rgba(1,41,138,0.25)] sm:h-28 sm:px-10">
+                            <div className="flex h-[68px] items-center rounded-md border border-[#E3E8EE] bg-white px-4 transition-[transform,box-shadow] duration-500 hover:-translate-y-1 hover:shadow-[0_16px_40px_-16px_rgba(1,41,138,0.25)] sm:h-28 sm:px-10">
                                 <img
                                     src="/assets/alliance-logo.webp"
                                     alt="Alliance InfiTex — joint venture partner"
-                                    className="max-h-14 w-auto sm:max-h-20"
+                                    className="max-h-10 w-auto sm:max-h-20"
                                     data-testid="jv-logo-alliance-infitex"
                                 />
                             </div>
