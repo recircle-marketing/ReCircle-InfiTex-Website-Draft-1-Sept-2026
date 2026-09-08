@@ -1,0 +1,35 @@
+const ITEMS = [
+    "1,200 MT / Month",
+    "Sachin GIDC, Surat",
+    "Mechanical + Chemical Recycling",
+    "Traceable via ClimaOne",
+    "100% Offtake Secured",
+    "Post-Industrial Polyester",
+    "Recycler-Ready Feedstock",
+];
+
+const Diamond = () => <span className="mx-10 inline-block h-2 w-2 rotate-45 bg-[#11821A] lg:mx-16" aria-hidden="true" />;
+
+export default function Marquee() {
+    const row = (ariaHidden) => (
+        <div className="flex shrink-0 items-center" aria-hidden={ariaHidden}>
+            {ITEMS.map((item) => (
+                <span key={`${item}-${ariaHidden}`} className="flex items-center">
+                    <span className="whitespace-nowrap text-sm font-medium tracking-[0.18em] text-[#01298A]/75 uppercase lg:text-base">
+                        {item}
+                    </span>
+                    <Diamond />
+                </span>
+            ))}
+        </div>
+    );
+
+    return (
+        <div data-testid="editorial-marquee" className="overflow-hidden border-y border-[#E3E8EE] bg-white py-6 lg:py-7">
+            <div className="marquee-track flex w-max">
+                {row(false)}
+                {row(true)}
+            </div>
+        </div>
+    );
+}

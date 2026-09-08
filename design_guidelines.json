@@ -1,0 +1,188 @@
+{
+  "project_info": {
+    "name": "ReCircle infiTex Private Limited Landing Website",
+    "app_type": "landing_page",
+    "target_audience": "Textile Manufacturers, Brand Partners, Recyclers, Chemical & Mechanical Processors, ESG & Sustainability Executives",
+    "description": "India's largest textile recovery facility (1,200 MT/month of polyester textile waste in Sachin GIDC, Surat) - A Joint Venture between ReCircle and Alliance InfiTex."
+  },
+  "brand_and_design_system": {
+    "colors": {
+      "primary": "#01298A",
+      "primary_name": "Royal Blue",
+      "accent": "#11821A",
+      "accent_name": "Eco Green",
+      "black": "#000000",
+      "white": "#FFFFFF",
+      "secondary_text": "#2C2C2C",
+      "secondary_text_name": "Graphite Charcoal",
+      "surface_light": "#F4F6F8",
+      "surface_light_name": "Facility Slate Light"
+    },
+    "typography": {
+      "font_family": "Inter, sans-serif",
+      "h1": "text-4xl sm:text-5xl lg:text-[64px] font-bold tracking-[-0.02em] leading-[1.1]",
+      "h2": "text-2xl sm:text-3xl lg:text-[44px] font-semibold tracking-[-0.01em] leading-[1.15]",
+      "h3": "text-xl sm:text-2xl lg:text-[32px] font-medium tracking-normal leading-[1.2]",
+      "body": "text-base sm:text-lg lg:text-[26px] font-normal tracking-normal leading-[1.4] text-left",
+      "body_mobile_min": "16px minimum on mobile",
+      "eyebrow": "text-sm sm:text-base lg:text-[24px] font-medium tracking-[0.18em] uppercase",
+      "rules": "Never justify text, never apply custom letter-spacing to body text. Scale proportionally down for mobile/tablet."
+    },
+    "buttons": {
+      "primary": "bg-[#01298A] text-white hover:bg-[#01206d] transition-colors rounded-md px-6 py-3.5 font-medium shadow-sm active:scale-[0.98]",
+      "secondary": "bg-transparent text-[#01298A] border-2 border-[#01298A] hover:bg-[#01298A]/5 transition-colors rounded-md px-6 py-3.5 font-medium active:scale-[0.98]",
+      "dark_inverted": "bg-white text-[#01298A] hover:bg-slate-100 transition-colors rounded-md px-6 py-3.5 font-semibold shadow-md active:scale-[0.98]"
+    },
+    "cards": {
+      "default": "bg-[#F4F6F8] border border-slate-200/80 rounded-lg p-6 lg:p-8 space-y-4 hover:border-[#01298A]/30 transition-all shadow-sm"
+    }
+  },
+  "motion_and_effects": {
+    "lenis_smooth_scroll": "Smooth momentum scrolling enabled globally using @studio-freight/lenis or lenis library.",
+    "framer_motion": "Hero line-by-line masked text reveal on load, scroll triggered entry animations for sections, kinetic numbers counter for 1,200 MT/month, chapter markers fade-in, image hover zoom & spotlight effects.",
+    "parallax": "Subtle parallax hero image scaling on scroll.",
+    "marquee": "One slow, elegant editorial ribbon marquee with low contrast and massive item gaps."
+  },
+  "curated_image_urls": {
+    "hero_facility": "https://images.unsplash.com/photo-1655122878062-a9e885391a1b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NjZ8MHwxfHNlYXJjaHw0fHxpbmR1c3RyaWFsJTIwd2FyZWhvdXNlJTIwZmFjaWxpdHklMjB0ZXh0aWxlJTIwbWFjaGluZXJ5fGVufDB8fHx8MTc4ODg2NzI2MHww&ixlib=rb-4.1.0&q=85",
+    "jv_industrial_scalable": "https://images.unsplash.com/photo-1675176785803-bffbbb0cd2f4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NjZ8MHwxfHNlYXJjaHwxfHxpbmR1c3RyaWFsJTIwd2FyZWhvdXNlJTIwZmFjaWxpdHklMjB0ZXh0aWxlJTIwbWFjaGluZXJ5fGVufDB8fHx8MTc4ODg2NzI2MHww&ixlib=rb-4.1.0&q=85",
+    "jv_tech_driven": "https://images.unsplash.com/photo-1660980041852-230420b8f99f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NjZ8MHwxfHNlYXJjaHwyfHxpbmR1c3RyaWFsJTIwd2FyZWhvdXNlJTIwZmFjaWxpdHklMjB0ZXh0aWxlJTIwbWFjaGluZXJ5fGVufDB8fHx8MTc4ODg2NzI2MHww&ixlib=rb-4.1.0&q=85",
+    "jv_authoritative_collaborative": "https://images.unsplash.com/photo-1741176505800-caaa3a52631a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NjZ8MHwxfHNlYXJjaHwzfHxpbmR1c3RyaWFsJTIwd2FyZWhvdXNlJTIwZmFjaWxpdHklMjB0ZXh0aWxlJTIwbWFjaGluZXJ5fGVufDB8fHx8MTc4ODg2NzI2MHww&ixlib=rb-4.1.0&q=85",
+    "workflow_flowchart": "https://images.unsplash.com/photo-1606053929013-311c13f97b5f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwxfHxwb2x5ZXN0ZXIlMjBmYWJyaWMlMjB0ZXh0aWxlJTIwd2FzdGUlMjByYXclMjBtYXRlcmlhbCUyMHJlY3ljbGVkJTIweWFybnxlbnwwfHx8fDE3ODg8NjcyNTN8MA&ixlib=rb-4.1.0&q=85",
+    "product_mechanical": "https://images.unsplash.com/photo-1533382433768-3d403240fa40?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwzfHxwb2x5ZXN0ZXIlMjBmYWJyaWMlMjB0ZXh0aWxlJTIwd2FzdGUlMjByYXclMjBtYXRlcmlhbCUyMHJlY3ljbGVkJTIweWFybnxlbnwwfHx8fDE3ODg4NjcyNTN8MA&ixlib=rb-4.1.0&q=85",
+    "product_chemical": "https://images.unsplash.com/photo-1721622248541-001da7c67fbe?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHw0fHxwb2x5ZXN0ZXIlMjBmYWJyaWMlMjB0ZXh0aWxlJTIwd2FzdGUlMjByYXclMjBtYXRlcmlhbCUyMHJlY3ljbGVkJTIweWFybnxlbnwwfHx8fDE3ODg4NjcyNTN8MA&ixlib=rb-4.1.0&q=85",
+    "recircle_logo_asset": "https://images.unsplash.com/photo-1572505006974-e844e3a0ec86?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHwxfHxpbmR1c3RyaWFsJTIwdGV4dGlsZSUyMHJlY3ljbGluZyUyMGZhY3RvcnklMjBtYWNoaW5lJTIwZmFjaWxpdHl8ZW58MHx8fGJsdWV8MTc4ODg2NzI1M3ww&ixlib=rb-4.1.0&q=85"
+  },
+  "sections_sequence": [
+    {
+      "id": "header",
+      "name": "1. Sticky White Header",
+      "bg": "bg-white/95 backdrop-blur-md border-b border-slate-200",
+      "components": "Logo left (ReCircle infiTex lockup in Royal Blue #01298A and Eco Green #11821A), nav menu center/right with anchor links (#facility, #why-surat, #capacity, #how-it-works, #tech, #products, #partners, #about, #contact), 'Get in Touch' CTA button on far right, responsive mobile slide-over sheet or hamburger menu with data-testid attributes."
+    },
+    {
+      "id": "hero",
+      "name": "2. Hero Section",
+      "bg": "Full-width industrial facility photo with #01298A (Royal Blue) overlay (opacity 0.45-0.55)",
+      "content": "Left-aligned vertically-centered content. Chapter marker '01 / OVERVIEW'. Eyebrow 'RECIRCLE INFITEX PRIVATE LIMITED'. H1 line-by-line masked reveal animation: 'Textile Recovery. Built for Scale.' Subheadline: 'Operating India\'s largest textile recovery facility processing 1,200 MT/month of polyester textile waste in Sachin GIDC, Surat.' Primary CTA button 'Partner With the Facility' (anchors to #contact) + White Ghost secondary button 'See How It Works' (anchors to #how-it-works)."
+    },
+    {
+      "id": "intro-strip",
+      "name": "3. Intro Strip",
+      "bg": "bg-white text-center py-16 px-6",
+      "content": "Max width 800px. Chapter marker '02 / CIRCULARITY'. Centered H2 'Leading India\'s Shift to Textile Circularity'. High-impact paragraph highlighting the JV between ReCircle and Alliance InfiTex transforming industrial & post-consumer waste into high-grade circular feedstocks."
+    },
+    {
+      "id": "joint-venture",
+      "name": "4. Joint Venture Section",
+      "bg": "bg-[#F4F6F8] py-20 px-6 lg:px-12",
+      "content": "Section H2 'Two Companies. One Recovery Ecosystem.' 3-card grid: Card 1 'Industrial and Scalable', Card 2 'Tech-Driven and Transparent', Card 3 'Authoritative and Collaborative'. Each card features an industrial photo, card number, Royal Blue headline, and Graphite body copy."
+    },
+    {
+      "id": "why-surat",
+      "name": "5. Why Surat Grid",
+      "bg": "bg-white py-20 px-6 lg:px-12",
+      "content": "Section H2 'Why Surat: The Heart of India\'s Textile Hub'. 6-item icon grid: (1) Yarn Manufacturing, (2) Weaving and Knitting, (3) Process Houses, (4) Garmenting Setups, (5) Textile Markets, (6) Aggregators. Custom Phosphor/Lucide icons with Royal Blue styling, hover elevation, and clean typography."
+    },
+    {
+      "id": "capacity",
+      "name": "6. Capacity Stat Section",
+      "bg": "bg-[#01298A] text-white py-24 px-6 lg:px-12 border-t border-b border-[#01206d]",
+      "content": "Huge kinetic stat lockup: '1,200 MT/month'. Headline 'Massive Capacity Engineered for Industrial Recovery'. 2 columns: Column 1 'Industrial & Pre-Consumer Waste', Column 2 'Municipal & Post-Consumer Waste'. Supporting line highlighting throughput reliability and zero-landfill diversion in Sachin GIDC."
+    },
+    {
+      "id": "how-it-works",
+      "name": "7. How It Works - Technical Workflow",
+      "bg": "bg-white py-20 px-6 lg:px-12",
+      "content": "Centered header 'How It Works: End-to-End Recovery Flowchart'. Full-width 4:3 technical workflow flowchart container (max-w-1200px) mapping Sourcing -> NIR Automated Sorting -> Baling & Shredding -> Mechanical/Chemical Feedstock Dispatch. Features interactive tap-to-expand Lightbox for mobile/tablet inspection."
+    },
+    {
+      "id": "technology",
+      "name": "8. Technology Section",
+      "bg": "bg-[#F4F6F8] py-20 px-6 lg:px-12",
+      "content": "Section H2 'Advanced Recovery Technology'. 2-column layout: Column 1 'AI-Based Automated Sorting' (NIR spectrographic identification of fiber compositions up to 99% purity), Column 2 'End-to-End Traceability' (Digital batch tracking, QR-coded bales, chain-of-custody ESG reporting)."
+    },
+    {
+      "id": "buy-material",
+      "name": "9. Buy Our Recovered Material",
+      "bg": "bg-white py-20 px-6 lg:px-12",
+      "content": "Section H2 'Buy Our Recovered Material'. 2 product cards: Card 1 'Mechanical Recycling Grade 100% Polyester' (shredded fiber/chip grade for rPET spinning), Card 2 'Chemical Recycling Grade 80%+ Polyester Blend' (depolymerization ready feedstock). Proof line: 'Supplying certified circular feedstocks to partners like <span text-[#11821A] font-semibold>Alliance Fibres Limited</span> for rPET filament yarn production.' Primary CTA 'Request Product Specifications & Samples' -> anchors to #contact."
+    },
+    {
+      "id": "strategic-partnerships",
+      "name": "10. Strategic Partnerships",
+      "bg": "bg-[#F4F6F8] py-20 px-6 lg:px-12",
+      "content": "Section H2 'Strategic Partnerships'. 2 detailed partnership cards: Card 1 'Alliance Fibres Limited' (Pioneering synthetic waste recycling & rPET yarn manufacturing), Card 2 'CAIF by Intellecap' (Circular Apparel Innovation Factory fostering ecosystem scale and policy alignment)."
+    },
+    {
+      "id": "vision",
+      "name": "11. Dark Vision Section",
+      "bg": "bg-[#000000] text-white py-24 px-6 lg:px-12 text-center",
+      "content": "Max width 800px. Chapter marker '05 / VISION'. Centered H2 'A Paradigm Shift in Textile Waste Management'. Expressive quote framing India's leadership in global textile sustainability, zero-waste industrial parks, and closed-loop polyester infrastructure."
+    },
+    {
+      "id": "about-recircle",
+      "name": "12. About ReCircle Section",
+      "bg": "bg-white py-20 px-6 lg:px-12",
+      "content": "2-column layout: Left column = ReCircle branding & corporate profile (pioneering waste management enterprise diverting 100,000+ MT waste with tech-first traceability), Right column = ReCircle narrative, leadership focus, and sustainability milestones."
+    },
+    {
+      "id": "about-alliance-infitex",
+      "name": "13. About Alliance InfiTex Section",
+      "bg": "bg-[#F4F6F8] py-20 px-6 lg:px-12",
+      "content": "Mirrored 2-column layout: Left column = Alliance InfiTex narrative, deep textile manufacturing lineage in Surat, engineering prowess in fiber recovery, Right column = Alliance InfiTex brand showcase & operational capability."
+    },
+    {
+      "id": "contact-enquiry",
+      "name": "14. Contact & Enquiry Section",
+      "bg": "bg-white py-24 px-6 lg:px-12 border-t border-slate-200",
+      "content": "The ONLY form on the site. 2-column layout: Left = Headline 'Build Circularity Into Your Supply Chain' + Company Details (Facility Address: Plot No. C-1, Sachin GIDC, Surat, Gujarat 394230; Phone: +91 95370 07436; Email: info@recircleinfitex.in; Corporate Identifiers: CIN & PAN details; Operating Hours & Regional Office), Right = Enquiry Form with fields (Name, Company Name, Email Address, Phone Number, Reason for Enquiry [Select: Partnership / Buy Recovered Material / Waste Collection / Facility Tour / Other], Material Interested In [Select: Mechanical 100% Polyester / Chemical 80%+ Blend / Custom Sorting / General Enquiry], Quantity Required [MT/month], Message textarea, 'Send Enquiry' primary button) with toast feedback using Sonner."
+    },
+    {
+      "id": "footer",
+      "name": "15. Footer",
+      "bg": "bg-[#01298A] text-white pt-16 pb-8 px-6 lg:px-12",
+      "content": "Knockout white ReCircle infiTex logo, brand tagline, 3 link columns (1. Company Anchors: Facility, Technology, Materials, Partners, Vision, About; 2. External Partners: ReCircle.in, Alliance Fibres, CAIF Intellecap; 3. Direct Contact: Surat Facility, +91 95370 07436, info@recircleinfitex.in). Bottom copyright bar: '© 2026 ReCircle infiTex Private Limited. All rights reserved.'"
+    }
+  ],
+  "testing_and_data_attributes": {
+    "data_testid_convention": "kebab-case, role-based identifiers on every button, input, anchor, modal, card, and interactive element.",
+    "required_test_ids": [
+      "header-logo",
+      "header-nav-facility-link",
+      "header-nav-why-surat-link",
+      "header-nav-capacity-link",
+      "header-nav-how-it-works-link",
+      "header-nav-tech-link",
+      "header-nav-products-link",
+      "header-nav-partners-link",
+      "header-nav-about-link",
+      "header-nav-contact-link",
+      "header-contact-cta-button",
+      "hero-partner-cta-button",
+      "hero-how-it-works-secondary-button",
+      "lightbox-expand-button",
+      "lightbox-close-button",
+      "buy-material-sample-cta-button",
+      "contact-form-name-input",
+      "contact-form-company-input",
+      "contact-form-email-input",
+      "contact-form-phone-input",
+      "contact-form-reason-select",
+      "contact-form-material-select",
+      "contact-form-quantity-input",
+      "contact-form-message-textarea",
+      "contact-form-submit-button"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Ensure Lenis smooth scrolling is initialized in App.js or smooth scroll wrapper.",
+    "Use Framer Motion for line-by-line headline reveal in Hero section and staggered entry animations.",
+    "Follow exact color codes: Royal Blue #01298A (Primary), Eco Green #11821A (Accent), Graphite Charcoal #2C2C2C (Secondary text), Facility Slate Light #F4F6F8 (Surface), Pure Black #000000, Pure White #FFFFFF.",
+    "Strict typography rules: Inter font only. Maintain exact font size and weight hierarchies.",
+    "Include tap-to-expand lightbox for the workflow flowchart image on mobile/tablet viewports.",
+    "Ensure all interactive CTAs smooth-scroll to #contact section or respective anchor targets.",
+    "Add sonner toast confirmation when contact enquiry form is submitted.",
+    "Every single interactive button, form element, and nav link MUST have a valid data-testid attribute."
+  ]
+}
