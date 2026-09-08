@@ -33,6 +33,7 @@ Single-page scrolling landing website for ReCircle infiTex Private Limited (Indi
 - Legal pages (2026-09-08): /privacy-policy and /terms-of-usage routes (react-router), shared LegalPage component, content in legalContent.js, route-aware header/footer anchors, scroll-to-top on route change.
 - Mobile polish (2026-09-08): header CTA visible on phones per spec, JV logo pair resized for 390px, footer stacks cleanly; verified via 390x844 screenshots (hero, JV, workflow lightbox chip, footer, hamburger menu).
 - Why Surat location video (2026-09-08): client-supplied Surat map tag animation embedded right of the section title — autoplay/muted/loop/playsInline, dual-source MP4 (H.264) + WebM (VP9, transcoded via imageio-ffmpeg) with square aspect frame, verified playing and looping.
+- Technology section images (2026-09-08): replaced icon tiles with imagery — AI-generated hyperspectral sorting line photo (tech-sorting.png) on "AI-Based Automated Sorting", client-supplied ClimaOne platform image (climaone.jpg) on "End-to-End Traceability". Header "About" nav link now targets #joint-venture.
 
 ## Backlog / Next Tasks
 - P0: Wire enquiry form to real email delivery (Resend → info@recircleinfitex.in) when client wants live enquiries.
