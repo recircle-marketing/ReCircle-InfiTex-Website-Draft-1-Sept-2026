@@ -55,8 +55,8 @@ export default function Footer() {
                     </ul>
                 </nav>
 
-                <nav aria-label="Partners">
-                    <h3 className="type-eyebrow !text-sm text-white/60">Partners</h3>
+                <nav aria-label="Joint venture partners">
+                    <h3 className="type-eyebrow !text-sm text-white/60">Joint Venture Of</h3>
                     <ul className="mt-6 space-y-4">
                         {PARTNER_LINKS.map((link) => (
                             <li key={link.href}>
