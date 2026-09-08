@@ -29,9 +29,12 @@ Single-page scrolling landing website for ReCircle infiTex Private Limited (Indi
 - Kinetic hero (parallax bg, staggered mask reveal), kinetic 1,200 MT counter, slow editorial marquee, numbered manifesto chapters 01–12, scroll-reveal micro-interactions, Lenis momentum scrolling, grain texture.
 - 6 AI-generated placeholder photos in documentary style (PPE-compliant) pending client Elementor assets.
 - Client logos integrated (2026-09-08): real ReCircle logo in About ReCircle panel; JV partner logos (ReCircle + Alliance infiTex) right of the Joint Venture section title; Alliance Fibres + CAIF logos on the Strategic Partnerships cards.
+- Footer expanded (2026-09-08): partner logo chips (ReCircle, Alliance infiTex) beside partner links, "Follow Us" social column (Instagram, LinkedIn, Email), Privacy Policy + Terms of Usage links in copyright bar.
+- Legal pages (2026-09-08): /privacy-policy and /terms-of-usage routes (react-router), shared LegalPage component, content in legalContent.js, route-aware header/footer anchors, scroll-to-top on route change.
+- Mobile polish (2026-09-08): header CTA visible on phones per spec, JV logo pair resized for 390px, footer stacks cleanly; verified via 390x844 screenshots (hero, JV, workflow lightbox chip, footer, hamburger menu).
 
 ## Backlog / Next Tasks
 - P0: Wire enquiry form to real email delivery (Resend → info@recircleinfitex.in) when client wants live enquiries.
 - P1: Replace AI placeholder photos with real facility photography.
-- P1: Mobile viewport QA pass on physical devices.
+- P1: Legal pages hold standard template copy — have legal counsel review before public launch.
 - P2: SEO meta/OG images, sitemap; performance pass (image weight optimization to webp).

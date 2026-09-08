@@ -52,21 +52,21 @@ export default function JointVenture() {
                     </div>
 
                     <Reveal delay={0.3}>
-                        <div className="flex shrink-0 items-center gap-4 sm:gap-5" data-testid="jv-partner-logos">
-                            <div className="flex h-20 items-center rounded-md border border-[#E3E8EE] bg-white px-6 sm:h-24 sm:px-8">
+                        <div className="flex shrink-0 flex-wrap items-center gap-3 sm:gap-5" data-testid="jv-partner-logos">
+                            <div className="flex h-16 items-center rounded-md border border-[#E3E8EE] bg-white px-4 sm:h-24 sm:px-8">
                                 <img
                                     src="/assets/recircle-logo.webp"
                                     alt="ReCircle — joint venture partner"
-                                    className="max-h-12 w-auto sm:max-h-14"
+                                    className="max-h-10 w-auto sm:max-h-14"
                                     data-testid="jv-logo-recircle"
                                 />
                             </div>
                             <span className="type-eyebrow text-[#2C2C2C]/40" aria-hidden="true">+</span>
-                            <div className="flex h-20 items-center rounded-md border border-[#E3E8EE] bg-white px-6 sm:h-24 sm:px-8">
+                            <div className="flex h-16 items-center rounded-md border border-[#E3E8EE] bg-white px-4 sm:h-24 sm:px-8">
                                 <img
                                     src="/assets/alliance-logo.webp"
                                     alt="Alliance InfiTex — joint venture partner"
-                                    className="max-h-12 w-auto sm:max-h-14"
+                                    className="max-h-10 w-auto sm:max-h-14"
                                     data-testid="jv-logo-alliance-infitex"
                                 />
                             </div>

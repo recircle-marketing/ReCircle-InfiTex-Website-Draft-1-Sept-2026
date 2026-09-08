@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { EASE } from "@/components/site/Reveal";
@@ -16,6 +17,8 @@ const NAV_LINKS = [
 export default function Header() {
     const [open, setOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
+    const { pathname } = useLocation();
+    const resolve = (href) => (pathname === "/" ? href : `/${href}`);
 
     useEffect(() => {
         const onScroll = () => setScrolled(window.scrollY > 24);
@@ -32,7 +35,7 @@ export default function Header() {
             }`}
         >
             <div className="container-x flex h-20 items-center justify-between gap-6 lg:h-[88px]">
-                <a href="#home" data-testid="header-logo" className="shrink-0 py-2" aria-label="ReCircle infiTex — home">
+                <a href={resolve("#home")} data-testid="header-logo" className="shrink-0 py-2" aria-label="ReCircle infiTex — home">
                     <img
                         src="/assets/logo-color.png"
                         alt="ReCircle infiTex — Textile Recovery"
@@ -44,7 +47,7 @@ export default function Header() {
                     {NAV_LINKS.map((link) => (
                         <a
                             key={link.href}
-                            href={link.href}
+                            href={resolve(link.href)}
                             data-testid={link.testid}
                             className="group relative text-[15px] font-medium text-[#2C2C2C] transition-colors duration-300 hover:text-[#01298A]"
                         >
@@ -55,7 +58,7 @@ export default function Header() {
                 </nav>
 
                 <div className="flex items-center gap-3">
-                    <a href="#contact" data-testid="header-contact-cta-button" className="btn-primary hidden !px-6 !py-3 sm:inline-flex">
+                    <a href={resolve("#contact")} data-testid="header-contact-cta-button" className="btn-primary whitespace-nowrap !px-4 !py-2.5 !text-sm sm:!px-6 sm:!py-3 sm:!text-base">
                         Get in Touch
                     </a>
                     <button
@@ -87,7 +90,7 @@ export default function Header() {
                             {NAV_LINKS.map((link, i) => (
                                 <motion.a
                                     key={link.href}
-                                    href={link.href}
+                                    href={resolve(link.href)}
                                     data-testid={`mobile-${link.testid}`}
                                     onClick={() => setOpen(false)}
                                     initial={{ opacity: 0, x: -14 }}
@@ -99,7 +102,7 @@ export default function Header() {
                                 </motion.a>
                             ))}
                             <a
-                                href="#contact"
+                                href={resolve("#contact")}
                                 data-testid="mobile-header-contact-cta-button"
                                 onClick={() => setOpen(false)}
                                 className="btn-primary mt-3 sm:hidden"

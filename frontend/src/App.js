@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Lenis from "lenis";
 import { Toaster } from "sonner";
 import "@/App.css";
@@ -18,6 +19,35 @@ import AboutReCircle from "@/components/site/AboutReCircle";
 import AboutAlliance from "@/components/site/AboutAlliance";
 import Contact from "@/components/site/Contact";
 import Footer from "@/components/site/Footer";
+import LegalPage from "@/components/site/LegalPage";
+import { PRIVACY_POLICY, TERMS_OF_USAGE } from "@/components/site/legalContent";
+
+const HomePage = () => (
+    <main>
+        <Hero />
+        <Marquee />
+        <IntroStrip />
+        <JointVenture />
+        <WhySurat />
+        <Capacity />
+        <HowItWorks />
+        <Technology />
+        <BuyMaterial />
+        <Partnerships />
+        <Vision />
+        <AboutReCircle />
+        <AboutAlliance />
+        <Contact />
+    </main>
+);
+
+const ScrollToTop = () => {
+    const { pathname } = useLocation();
+    useEffect(() => {
+        window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+    }, [pathname]);
+    return null;
+};
 
 function App() {
     useEffect(() => {
@@ -49,24 +79,16 @@ function App() {
     return (
         <div className="App" data-testid="app-root">
             <div className="grain" aria-hidden="true" />
-            <Header />
-            <main>
-                <Hero />
-                <Marquee />
-                <IntroStrip />
-                <JointVenture />
-                <WhySurat />
-                <Capacity />
-                <HowItWorks />
-                <Technology />
-                <BuyMaterial />
-                <Partnerships />
-                <Vision />
-                <AboutReCircle />
-                <AboutAlliance />
-                <Contact />
-            </main>
-            <Footer />
+            <BrowserRouter>
+                <ScrollToTop />
+                <Header />
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/privacy-policy" element={<LegalPage content={PRIVACY_POLICY} testid="privacy-policy-page" />} />
+                    <Route path="/terms-of-usage" element={<LegalPage content={TERMS_OF_USAGE} testid="terms-of-usage-page" />} />
+                </Routes>
+                <Footer />
+            </BrowserRouter>
             <Toaster position="bottom-right" richColors />
         </div>
     );
