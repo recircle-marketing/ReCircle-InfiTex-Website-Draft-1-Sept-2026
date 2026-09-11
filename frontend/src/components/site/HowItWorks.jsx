@@ -35,10 +35,10 @@ export default function HowItWorks() {
                             aria-label="Expand the technical workflow flowchart"
                         >
                             <img
-                                src="/assets/workflow.webp"
+                                src="/assets/workflow-v2.webp"
                                 alt="Technical workflow flowchart — from sourcing and pre-processing at the ReCircle infiTex TRF through mechanical and chemical recycling pathways"
                                 loading="lazy"
-                                className="aspect-[4/3] w-full rounded-md object-contain"
+                                className="aspect-square w-full rounded-md object-contain"
                             />
                             <span className="absolute bottom-5 right-5 flex items-center gap-2 rounded-md bg-[#01298A] px-4 py-2.5 text-sm font-medium text-white opacity-100 shadow-lg transition-opacity duration-300 lg:opacity-0 lg:group-hover:opacity-100">
                                 <Maximize2 size={16} /> Tap to expand
@@ -61,7 +61,7 @@ export default function HowItWorks() {
                         onClick={() => setOpen(false)}
                     >
                         <motion.img
-                            src="/assets/workflow.webp"
+                            src="/assets/workflow-v2.webp"
                             alt="Technical workflow flowchart, expanded view"
                             className="max-h-[88vh] w-auto max-w-full rounded-md bg-white object-contain"
                             initial={{ scale: 0.92, opacity: 0 }}
