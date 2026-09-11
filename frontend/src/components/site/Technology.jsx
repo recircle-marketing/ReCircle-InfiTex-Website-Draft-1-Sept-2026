@@ -42,12 +42,12 @@ export default function Technology() {
                 </div>
 
                 <Reveal delay={0.15}>
-                    <ImageReveal className="frame-clip aspect-[4/3] border border-[#E3E8EE] bg-white shadow-[0_24px_60px_-24px_rgba(1,41,138,0.25)]">
+                    <ImageReveal className="frame-clip border border-[#E3E8EE] bg-white shadow-[0_24px_60px_-24px_rgba(1,41,138,0.25)]">
                         <img
                             src="/assets/climaone.jpg"
                             alt="ClimaOne, ReCircle's proprietary traceability platform, shown on a phone at a recovery site"
                             loading="lazy"
-                            className="h-full w-full object-cover"
+                            className="h-auto w-full"
                             data-testid="technology-climaone-image"
                         />
                     </ImageReveal>
