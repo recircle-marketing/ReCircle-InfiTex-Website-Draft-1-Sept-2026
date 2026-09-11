@@ -14,7 +14,6 @@ import HowItWorks from "@/components/site/HowItWorks";
 import Technology from "@/components/site/Technology";
 import BuyMaterial from "@/components/site/BuyMaterial";
 import Partnerships from "@/components/site/Partnerships";
-import Vision from "@/components/site/Vision";
 import AboutReCircle from "@/components/site/AboutReCircle";
 import AboutAlliance from "@/components/site/AboutAlliance";
 import Contact from "@/components/site/Contact";
@@ -34,7 +33,6 @@ const HomePage = () => (
         <Technology />
         <BuyMaterial />
         <Partnerships />
-        <Vision />
         <AboutReCircle />
         <AboutAlliance />
         <Contact />

@@ -3,7 +3,6 @@ const ITEMS = [
     "Sachin GIDC, Surat",
     "Mechanical + Chemical Recycling",
     "Traceable via ClimaOne",
-    "100% Offtake Secured",
     "Post-Industrial Polyester",
     "Recycler-Ready Feedstock",
 ];

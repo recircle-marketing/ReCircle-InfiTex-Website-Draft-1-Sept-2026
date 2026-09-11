@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { ArrowDown } from "lucide-react";
 import { EASE } from "@/components/site/Reveal";
 
 const H1_LINES = ["Textile Recovery.", "Built for Scale."];
@@ -29,17 +28,7 @@ export default function Hero() {
 
             <motion.div className="container-x relative z-10 pb-28 pt-36 lg:pb-32 lg:pt-44" style={{ opacity: fade }}>
                 <div className="max-w-4xl">
-                    <motion.p
-                        data-testid="hero-eyebrow"
-                        className="type-eyebrow text-white/85"
-                        initial={{ opacity: 0, y: 18 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.9, delay: 0.25, ease: EASE }}
-                    >
-                        ReCircle infiTex Private Limited
-                    </motion.p>
-
-                    <h1 className="type-hero mt-7 text-white" data-testid="hero-headline">
+                    <h1 className="type-hero text-white" data-testid="hero-headline">
                         {H1_LINES.map((line, i) => (
                             <span key={line} className="block overflow-hidden pb-[0.08em]">
                                 <motion.span
@@ -81,21 +70,6 @@ export default function Hero() {
                 </div>
             </motion.div>
 
-            <motion.div
-                className="absolute bottom-8 left-6 z-10 flex items-center gap-4 lg:left-12"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 1.8, duration: 1 }}
-            >
-                <motion.span
-                    className="flex h-11 w-11 items-center justify-center rounded-full border border-white/40 text-white"
-                    animate={{ y: [0, 8, 0] }}
-                    transition={{ duration: 2.2, repeat: Infinity, ease: "easeInOut" }}
-                >
-                    <ArrowDown size={18} />
-                </motion.span>
-                <span className="text-sm font-medium tracking-[0.18em] text-white/70 uppercase">Sachin GIDC, Surat — India</span>
-            </motion.div>
         </section>
     );
 }

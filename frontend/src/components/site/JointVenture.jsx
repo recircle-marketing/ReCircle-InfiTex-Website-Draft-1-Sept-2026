@@ -4,7 +4,7 @@ const CARDS = [
     {
         index: "01",
         title: "Industrial and Scalable",
-        body: "Built on high-volume processing capacity of 1,200 tons per month in Sachin GIDC, Surat.",
+        body: "Built on high-volume processing capacity of 1,200 tons.",
         img: "/assets/jv-industrial.png",
         alt: "High-volume baling machinery processing textile waste",
         testid: "jv-card-industrial",
@@ -19,7 +19,7 @@ const CARDS = [
     },
     {
         index: "03",
-        title: "Authoritative and Collaborative",
+        title: "Inclusive and Collaborative",
         body: "A trusted partner connecting mills, aggregators, brands and recyclers.",
         img: "/assets/jv-collab.png",
         alt: "Partners collaborating on the facility floor",
@@ -44,9 +44,8 @@ export default function JointVenture() {
                                 ReCircle infiTex Private Limited is a joint venture between ReCircle and Alliance
                                 InfiTex, a subsidiary of Alliance Fibres Limited. The venture combines ReCircle&apos;s
                                 supply chain traceability and recovery ecosystem with Alliance InfiTex&apos;s
-                                textile-to-textile manufacturing capabilities. The Circular Apparel Innovation Factory
-                                (CAIF) by Intellecap supports the project. The partnership was signed during Bharat Tex
-                                2026.
+                                textile-to-textile manufacturing capabilities. The partnership was signed during
+                                Bharat Tex 2026.
                             </p>
                         </Reveal>
                     </div>

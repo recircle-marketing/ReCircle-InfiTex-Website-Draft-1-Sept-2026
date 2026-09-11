@@ -5,7 +5,7 @@ const PARTNERS = [
         logo: "/assets/alliance-fibres.png",
         index: "01",
         title: "Alliance Fibres Limited",
-        body: "A strategic partner with 20 years of experience in recycled polyester fibre and yarn production. Alliance Fibres has signed a strategic offtake agreement to purchase 100% of the mechanical recycling-grade polyester produced by the facility.",
+        body: "A strategic partner with 20 years of experience in recycled polyester fibre and yarn production. Alliance Fibres has signed a strategic offtake agreement to purchase the mechanical recycling-grade polyester produced by the facility.",
         testid: "partner-card-alliance-fibres",
     },
     {

@@ -63,7 +63,7 @@ export default function Capacity() {
                             <span className="ml-4 text-[0.32em] font-semibold tracking-normal text-white/85">MT/month</span>
                         </div>
                         <p className="type-body-sm mt-6 max-w-xl text-white/80">
-                            Combined mechanical and chemical recycling output, Sachin GIDC, Surat
+                            Combined mechanical and chemical recycling output
                         </p>
                     </div>
                 </Reveal>
@@ -79,15 +79,6 @@ export default function Capacity() {
                     ))}
                 </div>
 
-                <Reveal delay={0.15}>
-                    <p
-                        data-testid="capacity-supporting-line"
-                        className="mx-auto mt-16 max-w-3xl border-t border-white/20 pt-12 text-center text-base leading-relaxed text-white/75 lg:mt-20 lg:text-lg"
-                    >
-                        Currently focused on post-industrial polyester-dominated materials, including chindi, cut-outs
-                        and yarn or hard waste.
-                    </p>
-                </Reveal>
             </div>
         </section>
     );

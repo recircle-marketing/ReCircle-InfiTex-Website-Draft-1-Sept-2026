@@ -3,7 +3,7 @@ import { toast } from "sonner";
 import { MapPin, Phone, Mail, FileText, CheckCircle2, Send } from "lucide-react";
 import { Reveal, Chapter } from "@/components/site/Reveal";
 
-const REASONS = ["General Enquiry", "Buy Recovered Material", "Partnership or Offtake", "Other"];
+const REASONS = ["General Enquiry", "Buy Recovered Material", "Raw Material to Us", "Carriers", "Other"];
 const MATERIALS = [
     "Mechanical Recycling Grade (100% Polyester)",
     "Chemical Recycling Grade (80%+ Polyester Blend)",
@@ -62,7 +62,7 @@ export default function Contact() {
             <div className="container-x grid gap-16 lg:grid-cols-2 lg:gap-20">
                 <div>
                     <Reveal>
-                        <Chapter index="12" label="Contact and Enquiry" />
+                        <Chapter index="11" label="Contact and Enquiry" />
                     </Reveal>
                     <Reveal delay={0.1}>
                         <h2 className="type-h2 mt-9 text-black">Build Circularity Into Your Supply Chain</h2>
@@ -80,8 +80,8 @@ export default function Contact() {
                             <div className="flex gap-4">
                                 <MapPin size={22} className="mt-1 shrink-0 text-[#01298A]" />
                                 <p className="text-base leading-relaxed text-[#2C2C2C]">
-                                    Shop No. 711, Avadh Kontina, Luthra Circle, VIP Road, Vesu, Surat – 395007,
-                                    Gujarat, India
+                                    Plot No. B/4, Block No. 249/B, Sachin Industrial Estate GIDC, Taluka, Choryasi,
+                                    Un, Surat, Gujarat 394230
                                 </p>
                             </div>
                             <div className="flex items-center gap-4">

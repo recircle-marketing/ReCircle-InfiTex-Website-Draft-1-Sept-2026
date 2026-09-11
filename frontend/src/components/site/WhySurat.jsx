@@ -89,7 +89,13 @@ export default function WhySurat() {
                     </Reveal>
                 </div>
 
-                <div className="mt-16 grid gap-px overflow-hidden rounded-lg border border-[#E3E8EE] bg-[#E3E8EE] sm:grid-cols-2 lg:mt-20 lg:grid-cols-3" data-testid="surat-icon-grid">
+                <Reveal delay={0.1}>
+                    <h3 className="type-h3 mt-16 text-[#01298A] lg:mt-20" data-testid="surat-grid-title">
+                        Where the Waste Comes From
+                    </h3>
+                </Reveal>
+
+                <div className="mt-10 grid gap-px overflow-hidden rounded-lg border border-[#E3E8EE] bg-[#E3E8EE] sm:grid-cols-2 lg:grid-cols-3" data-testid="surat-icon-grid">
                     {ITEMS.map((item, i) => (
                         <Reveal key={item.title} delay={0.07 * i} y={20} className="h-full">
                             <div

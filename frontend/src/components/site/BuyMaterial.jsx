@@ -83,17 +83,8 @@ export default function BuyMaterial() {
                     ))}
                 </div>
 
-                <Reveal delay={0.1}>
-                    <p data-testid="buy-material-proof-line" className="type-body-sm mx-auto mt-16 max-w-4xl text-center text-[#2C2C2C] lg:mt-20">
-                        <span className="font-semibold text-[#11821A]">Alliance Fibres Limited</span>, a partner with 20
-                        years of experience in recycled polyester fibre and yarn production, has signed a strategic
-                        offtake agreement to purchase 100% of the mechanical recycling-grade polyester produced at the
-                        facility.
-                    </p>
-                </Reveal>
-
                 <Reveal delay={0.2}>
-                    <div className="mt-12 text-center">
+                    <div className="mt-16 text-center lg:mt-20">
                         <a href="#contact" data-testid="buy-material-cta-button" className="btn-primary">
                             Enquire About Buying Material
                         </a>

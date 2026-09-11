@@ -1,56 +1,57 @@
 import { Reveal, Chapter, ImageReveal } from "@/components/site/Reveal";
 
-const COLUMNS = [
-    {
-        img: "/assets/tech-sorting.png",
-        alt: "Hyperspectral camera sorting head scanning polyester fabric pieces on a conveyor",
-        title: "AI-Based Automated Sorting",
-        body: "Sorting starts with manual touch-and-feel inspection. The facility is developing an in-house automated sorting system using hyperspectral cameras with UV and IR technology. This identifies material composition, such as 80% versus 100% polyester, at industrial scale.",
-        testid: "tech-col-sorting",
-    },
-    {
-        img: "/assets/climaone.jpg",
-        alt: "ClimaOne, ReCircle's proprietary traceability platform, shown on a phone at a recovery site",
-        title: "End-to-End Traceability",
-        body: "ClimaOne for Textile, ReCircle's digital traceability platform, tracks material movement from collection through sorting and processing to the final recycling destination.",
-        testid: "tech-col-traceability",
-    },
-];
+const STEPS = ["Collection", "Sorting", "Processing", "Recycling Destination"];
 
 export default function Technology() {
     return (
         <section id="technology" data-testid="technology-section" className="bg-[#F4F6F8] py-24 lg:py-32">
-            <div className="container-x">
-                <Reveal>
-                    <Chapter index="06" label="Technology" />
-                </Reveal>
-                <Reveal delay={0.1}>
-                    <h2 className="type-h2 mt-9 max-w-4xl text-black">Built on Traceability and Precision Sorting</h2>
-                </Reveal>
-
-                <div className="mt-14 grid gap-6 lg:mt-20 lg:grid-cols-2">
-                    {COLUMNS.map((col, i) => (
-                        <Reveal key={col.title} delay={0.12 * i} className="h-full">
-                            <article
-                                data-testid={col.testid}
-                                className="group flex h-full flex-col rounded-lg border border-[#E3E8EE] bg-white p-5 transition-[box-shadow,transform,border-color] duration-500 hover:-translate-y-1.5 hover:border-[#01298A]/30 hover:shadow-[0_24px_60px_-24px_rgba(1,41,138,0.28)]"
-                            >
-                                <ImageReveal className="frame-clip aspect-[16/10]">
-                                    <img
-                                        src={col.img}
-                                        alt={col.alt}
-                                        loading="lazy"
-                                        className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.05]"
-                                    />
-                                </ImageReveal>
-                                <div className="flex grow flex-col p-4 pt-8 lg:p-6 lg:pt-9">
-                                    <h3 className="type-h3 text-[#01298A]">{col.title}</h3>
-                                    <p className="type-body-sm mt-5 text-[#2C2C2C]">{col.body}</p>
-                                </div>
-                            </article>
-                        </Reveal>
-                    ))}
+            <div className="container-x grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
+                <div>
+                    <Reveal>
+                        <Chapter index="06" label="Technology" />
+                    </Reveal>
+                    <Reveal delay={0.1}>
+                        <h2 className="type-h2 mt-9 text-black">Built on End-to-End Traceability</h2>
+                    </Reveal>
+                    <Reveal delay={0.2}>
+                        <p className="type-body-sm mt-7 text-[#2C2C2C]">
+                            ClimaOne for Textile, ReCircle&apos;s digital traceability platform, tracks material
+                            movement from collection through sorting and processing to the final recycling
+                            destination.
+                        </p>
+                        <p className="type-body-sm mt-5 text-[#2C2C2C]">
+                            Every batch moves through ClimaOne, so buyers get full traceability from source to output.
+                        </p>
+                    </Reveal>
+                    <Reveal delay={0.3}>
+                        <ol className="mt-10 border-t border-[#E3E8EE]" data-testid="traceability-steps">
+                            {STEPS.map((step, i) => (
+                                <li
+                                    key={step}
+                                    className="group flex items-center gap-6 border-b border-[#E3E8EE] py-5 transition-colors duration-300 hover:bg-white/60"
+                                >
+                                    <span className="type-eyebrow w-10 shrink-0 text-[#11821A]">
+                                        {String(i + 1).padStart(2, "0")}
+                                    </span>
+                                    <span className="text-lg font-medium text-black lg:text-xl">{step}</span>
+                                    <span className="ml-auto h-px w-0 bg-[#01298A] transition-[width] duration-500 group-hover:w-16" aria-hidden="true" />
+                                </li>
+                            ))}
+                        </ol>
+                    </Reveal>
                 </div>
+
+                <Reveal delay={0.15}>
+                    <ImageReveal className="frame-clip aspect-[4/3] border border-[#E3E8EE] bg-white shadow-[0_24px_60px_-24px_rgba(1,41,138,0.25)]">
+                        <img
+                            src="/assets/climaone.jpg"
+                            alt="ClimaOne, ReCircle's proprietary traceability platform, shown on a phone at a recovery site"
+                            loading="lazy"
+                            className="h-full w-full object-cover"
+                            data-testid="technology-climaone-image"
+                        />
+                    </ImageReveal>
+                </Reveal>
             </div>
         </section>
     );

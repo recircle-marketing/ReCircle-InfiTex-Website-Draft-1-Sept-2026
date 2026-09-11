@@ -85,8 +85,8 @@ export default function Footer() {
                         <li className="flex gap-3">
                             <MapPin size={19} className="mt-0.5 shrink-0 text-white/60" />
                             <span>
-                                Shop No. 711, Avadh Kontina, Luthra Circle, VIP Road, Vesu, Surat – 395007, Gujarat,
-                                India
+                                Plot No. B/4, Block No. 249/B, Sachin Industrial Estate GIDC, Taluka, Choryasi, Un,
+                                Surat, Gujarat 394230
                             </span>
                         </li>
                         <li className="flex items-center gap-3">

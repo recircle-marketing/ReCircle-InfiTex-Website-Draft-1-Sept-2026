@@ -7,7 +7,7 @@ export const PRIVACY_POLICY = {
         {
             heading: "Who We Are",
             body: [
-                "ReCircle infiTex Private Limited is a textile recovery company headquartered at Shop No. 711, Avadh Kontina, Luthra Circle, VIP Road, Vesu, Surat \u2013 395007, Gujarat, India (CIN: U38300GJ2026PTC181359). We operate a textile recovery facility in Sachin GIDC, Surat, as a joint venture between ReCircle and Alliance InfiTex.",
+                "ReCircle infiTex Private Limited is a textile recovery company headquartered at Plot No. B/4, Block No. 249/B, Sachin Industrial Estate GIDC, Taluka, Choryasi, Un, Surat, Gujarat 394230 (CIN: U38300GJ2026PTC181359). We operate a textile recovery facility in Sachin GIDC, Surat, as a joint venture between ReCircle and Alliance InfiTex.",
             ],
         },
         {
@@ -68,7 +68,7 @@ export const PRIVACY_POLICY = {
         {
             heading: "Contact Us",
             body: [
-                "For any privacy question or request, contact us at info@recircleinfitex.in or +91 95370 07436, or write to ReCircle infiTex Private Limited, Shop No. 711, Avadh Kontina, Luthra Circle, VIP Road, Vesu, Surat \u2013 395007, Gujarat, India.",
+                "For any privacy question or request, contact us at info@recircleinfitex.in or +91 95370 07436, or write to ReCircle infiTex Private Limited, Plot No. B/4, Block No. 249/B, Sachin Industrial Estate GIDC, Taluka, Choryasi, Un, Surat, Gujarat 394230.",
             ],
         },
     ],
@@ -131,7 +131,7 @@ export const TERMS_OF_USAGE = {
         {
             heading: "Contact Us",
             body: [
-                "For questions about these terms, contact us at info@recircleinfitex.in or +91 95370 07436, or write to ReCircle infiTex Private Limited, Shop No. 711, Avadh Kontina, Luthra Circle, VIP Road, Vesu, Surat \u2013 395007, Gujarat, India.",
+                "For questions about these terms, contact us at info@recircleinfitex.in or +91 95370 07436, or write to ReCircle infiTex Private Limited, Plot No. B/4, Block No. 249/B, Sachin Industrial Estate GIDC, Taluka, Choryasi, Un, Surat, Gujarat 394230.",
             ],
         },
     ],
