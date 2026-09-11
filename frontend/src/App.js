@@ -18,6 +18,7 @@ import AboutReCircle from "@/components/site/AboutReCircle";
 import AboutAlliance from "@/components/site/AboutAlliance";
 import Contact from "@/components/site/Contact";
 import Footer from "@/components/site/Footer";
+import WhatsAppButton from "@/components/site/WhatsAppButton";
 import LegalPage from "@/components/site/LegalPage";
 import { PRIVACY_POLICY, TERMS_OF_USAGE } from "@/components/site/legalContent";
 
@@ -94,7 +95,8 @@ function App() {
                 </Routes>
                 <Footer />
             </BrowserRouter>
-            <Toaster position="bottom-right" richColors />
+            <WhatsAppButton />
+            <Toaster position="bottom-left" richColors />
         </div>
     );
 }
