@@ -80,8 +80,16 @@ export default function Contact() {
                             <div className="flex gap-4">
                                 <MapPin size={22} className="mt-1 shrink-0 text-[#01298A]" />
                                 <p className="text-base leading-relaxed text-[#2C2C2C]">
-                                    Plot No. B/4, Block No. 249/B, Sachin Industrial Estate GIDC, Taluka, Choryasi,
-                                    Un, Surat, Gujarat 394230
+                                    <a
+                                        href="https://maps.app.goo.gl/e7FqC9cuU8soJhdW9"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        data-testid="contact-address-link"
+                                        className="underline decoration-[#11821A]/50 underline-offset-4 transition-colors hover:text-[#01298A]"
+                                    >
+                                        Plot No. B/4, Block No. 249/B, Sachin Industrial Estate GIDC, Taluka,
+                                        Choryasi, Un, Surat, Gujarat 394230
+                                    </a>
                                 </p>
                             </div>
                             <div className="flex items-center gap-4">

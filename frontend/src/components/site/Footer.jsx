@@ -84,10 +84,16 @@ export default function Footer() {
                     <ul className="mt-6 space-y-4 text-base text-white/85">
                         <li className="flex gap-3">
                             <MapPin size={19} className="mt-0.5 shrink-0 text-white/60" />
-                            <span>
+                            <a
+                                href="https://maps.app.goo.gl/e7FqC9cuU8soJhdW9"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                data-testid="footer-address-link"
+                                className="transition-colors hover:text-white"
+                            >
                                 Plot No. B/4, Block No. 249/B, Sachin Industrial Estate GIDC, Taluka, Choryasi, Un,
                                 Surat, Gujarat 394230
-                            </span>
+                            </a>
                         </li>
                         <li className="flex items-center gap-3">
                             <Phone size={19} className="shrink-0 text-white/60" />
