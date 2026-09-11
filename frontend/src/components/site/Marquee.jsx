@@ -1,18 +1,13 @@
-const ITEMS = [
-    "1,200 MT / Month",
-    "Sachin GIDC, Surat",
-    "Mechanical + Chemical Recycling",
-    "Traceable via ClimaOne",
-    "Post-Industrial Polyester",
-    "Recycler-Ready Feedstock",
-];
+const ITEMS = ["Mechanical Recycling", "Chemical Recycling"];
+
+const TRACK = [...ITEMS, ...ITEMS, ...ITEMS, ...ITEMS];
 
 const Diamond = () => <span className="mx-10 inline-block h-2 w-2 rotate-45 bg-[#11821A] lg:mx-16" aria-hidden="true" />;
 
 export default function Marquee() {
     const row = (ariaHidden) => (
         <div className="flex shrink-0 items-center" aria-hidden={ariaHidden}>
-            {ITEMS.map((item) => (
+            {TRACK.map((item) => (
                 <span key={`${item}-${ariaHidden}`} className="flex items-center">
                     <span className="whitespace-nowrap text-sm font-medium tracking-[0.18em] text-[#01298A]/75 uppercase lg:text-base">
                         {item}

@@ -78,8 +78,8 @@ export default function WhySurat() {
                                 preload="auto"
                                 aria-label="Animated map zooming from India to Surat, Gujarat"
                             >
-                                <source src="/assets/surat-location.mp4" type='video/mp4; codecs="avc1.64001f, mp4a.40.2"' />
-                                <source src="/assets/surat-location.webm" type="video/webm" />
+                                <source src="/assets/facility-video.mp4" type='video/mp4; codecs="avc1.64001f, mp4a.40.2"' />
+                                <source src="/assets/facility-video.webm" type="video/webm" />
                             </video>
                         </ImageReveal>
                         <p className="mt-4 flex items-center gap-2.5 text-sm font-medium uppercase tracking-[0.14em] text-[#2C2C2C]/60">
