@@ -3,7 +3,7 @@ import { toast } from "sonner";
 import { MapPin, Phone, Mail, FileText, CheckCircle2, Send } from "lucide-react";
 import { Reveal, Chapter } from "@/components/site/Reveal";
 
-const REASONS = ["General Enquiry", "Buy Recovered Material", "Raw Material to Us", "Carriers", "Other"];
+const REASONS = ["General Enquiry", "Buy Recovered Materials", "Sell / Supply Raw Materials", "Careers", "Other"];
 const MATERIALS = [
     "Mechanical Recycling Grade (100% Polyester)",
     "Chemical Recycling Grade (80%+ Polyester Blend)",
