@@ -52,8 +52,16 @@ export default function WhySurat() {
                             <p className="type-body-sm mt-7 text-[#2C2C2C]">
                                 Surat is one of India&apos;s largest hubs for polyester and synthetic textile
                                 manufacturing. The city generates around{" "}
-                                <strong className="font-semibold text-[#01298A]">762 MT of textile cut-piece waste</strong>,
-                                known as chindi, every day, according to the Ministry of Textiles, India.
+                                <a
+                                    href="https://www.texmin.gov.in/static/uploads/2026/03/407c2f186a2044a4497c9c9803d16a2c.pdf"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    data-testid="surat-stat-source-link"
+                                    className="font-semibold text-[#01298A] underline decoration-[#11821A]/60 underline-offset-4 transition-colors hover:text-[#11821A]"
+                                >
+                                    762 MT of textile cut-piece waste
+                                </a>
+                                , known as chindi, every day, according to the Ministry of Textiles, India.
                             </p>
                             <p className="type-body-sm mt-5 text-[#2C2C2C]">
                                 The facility sits in Sachin GIDC, Surat, giving it direct access to the city&apos;s major

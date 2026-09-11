@@ -41,11 +41,25 @@ export default function JointVenture() {
                         </Reveal>
                         <Reveal delay={0.2}>
                             <p className="type-body-sm mt-7 text-[#2C2C2C]">
-                                ReCircle infiTex Private Limited is a joint venture between ReCircle and Alliance
-                                InfiTex, a subsidiary of Alliance Fibres Limited. The venture combines ReCircle&apos;s
-                                supply chain traceability and recovery ecosystem with Alliance InfiTex&apos;s
-                                textile-to-textile manufacturing capabilities. The partnership was signed during
-                                Bharat Tex 2026.
+                                ReCircle infiTex Private Limited is a joint venture between{" "}
+                                <a href="https://recircle.in/" target="_blank" rel="noopener noreferrer" data-testid="jv-link-recircle" className="font-medium text-[#01298A] underline decoration-[#11821A]/60 underline-offset-4 transition-colors hover:text-[#11821A]">
+                                    ReCircle
+                                </a>{" "}
+                                and{" "}
+                                <a href="https://allianceinfitex.com/" target="_blank" rel="noopener noreferrer" data-testid="jv-link-alliance-infitex" className="font-medium text-[#01298A] underline decoration-[#11821A]/60 underline-offset-4 transition-colors hover:text-[#11821A]">
+                                    Alliance InfiTex
+                                </a>
+                                , a subsidiary of{" "}
+                                <a href="https://alliancefibres.com/" target="_blank" rel="noopener noreferrer" data-testid="jv-link-alliance-fibres" className="font-medium text-[#01298A] underline decoration-[#11821A]/60 underline-offset-4 transition-colors hover:text-[#11821A]">
+                                    Alliance Fibres
+                                </a>{" "}
+                                Limited. The venture combines ReCircle&apos;s supply chain traceability and recovery
+                                ecosystem with Alliance InfiTex&apos;s textile-to-textile manufacturing capabilities.
+                                The partnership was signed during{" "}
+                                <a href="https://bharat-tex.com/" target="_blank" rel="noopener noreferrer" data-testid="jv-link-bharat-tex" className="font-medium text-[#01298A] underline decoration-[#11821A]/60 underline-offset-4 transition-colors hover:text-[#11821A]">
+                                    Bharat Tex
+                                </a>{" "}
+                                2026.
                             </p>
                         </Reveal>
                     </div>
