@@ -13,7 +13,7 @@ export default function IntroStrip() {
                     </Reveal>
                     <Reveal delay={0.2}>
                         <p className="type-body mt-9 text-[#2C2C2C]">
-                            ReCircle infiTex leads industrial-scale textile circularity in India. The facility
+                            ReCircle InfiTex leads industrial-scale textile circularity in India. The facility
                             recovers polyester-rich textile waste and channels it into high-value textile to textile
                             recycling through transparent, technology-backed processes.
                         </p>

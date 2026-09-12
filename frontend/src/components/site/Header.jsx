@@ -35,10 +35,10 @@ export default function Header() {
             }`}
         >
             <div className="container-x flex h-20 items-center justify-between gap-6 lg:h-[88px]">
-                <a href={resolve("#home")} data-testid="header-logo" className="shrink-0 py-2" aria-label="ReCircle infiTex — home">
+                <a href={resolve("#home")} data-testid="header-logo" className="shrink-0 py-2" aria-label="ReCircle InfiTex — home">
                     <img
                         src="/assets/logo-color.png"
-                        alt="ReCircle infiTex — Textile Recovery"
+                        alt="ReCircle InfiTex — Textile Recovery"
                         className="w-[180px] lg:w-[216px]"
                     />
                 </a>

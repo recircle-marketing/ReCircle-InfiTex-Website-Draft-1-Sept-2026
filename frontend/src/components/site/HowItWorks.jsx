@@ -36,7 +36,7 @@ export default function HowItWorks() {
                         >
                             <img
                                 src="/assets/workflow-v2.webp"
-                                alt="Technical workflow flowchart — from sourcing and pre-processing at the ReCircle infiTex TRF through mechanical and chemical recycling pathways"
+                                alt="Technical workflow flowchart — from sourcing and pre-processing at the ReCircle InfiTex TRF through mechanical and chemical recycling pathways"
                                 loading="lazy"
                                 className="aspect-square w-full rounded-md object-contain"
                             />

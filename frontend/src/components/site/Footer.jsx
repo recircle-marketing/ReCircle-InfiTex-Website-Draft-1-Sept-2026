@@ -28,10 +28,10 @@ export default function Footer() {
         <footer data-testid="site-footer" className="bg-[#01298A] text-white">
             <div className="container-x grid gap-14 py-16 sm:grid-cols-2 lg:grid-cols-[1.2fr_0.8fr_1.1fr_1.3fr_0.9fr] lg:gap-10 lg:py-20">
                 <div>
-                    <a href={resolve("#home")} data-testid="footer-logo" aria-label="ReCircle infiTex — back to top">
+                    <a href={resolve("#home")} data-testid="footer-logo" aria-label="ReCircle InfiTex — back to top">
                         <img
                             src="/assets/logo-white.png"
-                            alt="ReCircle infiTex — Textile Recovery"
+                            alt="ReCircle InfiTex — Textile Recovery"
                             className="w-[190px] lg:w-[220px]"
                         />
                     </a>
@@ -120,7 +120,7 @@ export default function Footer() {
                                 target={link.href.startsWith("http") ? "_blank" : undefined}
                                 rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
                                 data-testid={link.testid}
-                                aria-label={`ReCircle infiTex on ${link.label}`}
+                                aria-label={`ReCircle InfiTex on ${link.label}`}
                                 className="flex h-11 w-11 items-center justify-center rounded-md border border-white/25 text-white/85 transition-[background-color,color,border-color,transform] duration-300 hover:-translate-y-0.5 hover:border-white hover:bg-white hover:text-[#01298A]"
                             >
                                 <link.icon size={19} />
@@ -136,7 +136,7 @@ export default function Footer() {
             <div className="border-t border-white/15">
                 <div className="container-x flex flex-col gap-3 py-6 sm:flex-row sm:items-center sm:justify-between">
                     <p data-testid="footer-copyright" className="text-sm text-white/60">
-                        © 2026 ReCircle infiTex Private Limited. All rights reserved.
+                        © 2026 ReCircle InfiTex Private Limited. All rights reserved.
                     </p>
                     <div className="flex items-center gap-7">
                         <Link

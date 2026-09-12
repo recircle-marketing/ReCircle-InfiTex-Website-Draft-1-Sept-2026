@@ -17,7 +17,7 @@ export default function WhatsAppButton() {
             target="_blank"
             rel="noopener noreferrer"
             data-testid="whatsapp-float-button"
-            aria-label="Chat with ReCircle infiTex on WhatsApp"
+            aria-label="Chat with ReCircle InfiTex on WhatsApp"
             className="fixed bottom-6 right-6 z-[95] flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_12px_32px_-8px_rgba(37,211,102,0.55)] transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-[0_18px_40px_-10px_rgba(37,211,102,0.65)]"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}

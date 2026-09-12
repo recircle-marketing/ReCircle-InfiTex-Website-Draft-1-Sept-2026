@@ -41,7 +41,7 @@ export default function JointVenture() {
                         </Reveal>
                         <Reveal delay={0.2}>
                             <p className="type-body-sm mt-7 text-[#2C2C2C]">
-                                ReCircle infiTex Private Limited is a joint venture between{" "}
+                                ReCircle InfiTex Private Limited is a joint venture between{" "}
                                 <a href="https://recircle.in/" target="_blank" rel="noopener noreferrer" data-testid="jv-link-recircle" className="font-medium text-[#01298A] underline decoration-[#11821A]/60 underline-offset-4 transition-colors hover:text-[#11821A]">
                                     ReCircle
                                 </a>{" "}

@@ -76,7 +76,7 @@ export default function Contact() {
                     </Reveal>
                     <Reveal delay={0.3}>
                         <div className="mt-12 space-y-7 border-t border-[#E3E8EE] pt-10" data-testid="contact-company-details">
-                            <p className="text-xl font-semibold text-black">ReCircle infiTex Private Limited</p>
+                            <p className="text-xl font-semibold text-black">ReCircle InfiTex Private Limited</p>
                             <div className="flex gap-4">
                                 <MapPin size={22} className="mt-1 shrink-0 text-[#01298A]" />
                                 <p className="text-base leading-relaxed text-[#2C2C2C]">

@@ -2,12 +2,12 @@ export const PRIVACY_POLICY = {
     index: "01",
     title: "Privacy Policy",
     updated: "Last updated: September 2026",
-    intro: "ReCircle infiTex Private Limited (\u201CReCircle infiTex\u201D, \u201Cwe\u201D, \u201Cus\u201D) respects your privacy. This policy explains what information we collect through this website, why we collect it, and how we handle it.",
+    intro: "ReCircle InfiTex Private Limited (\u201CReCircle InfiTex\u201D, \u201Cwe\u201D, \u201Cus\u201D) respects your privacy. This policy explains what information we collect through this website, why we collect it, and how we handle it.",
     sections: [
         {
             heading: "Who We Are",
             body: [
-                "ReCircle infiTex Private Limited is a textile recovery company headquartered at Plot No. B/4, Block No. 249/B, Sachin Industrial Estate GIDC, Taluka, Choryasi, Un, Surat, Gujarat 394230 (CIN: U38300GJ2026PTC181359). We operate a textile recovery facility in Sachin GIDC, Surat, as a joint venture between ReCircle and Alliance InfiTex.",
+                "ReCircle InfiTex Private Limited is a textile recovery company headquartered at Plot No. B/4, Block No. 249/B, Sachin Industrial Estate GIDC, Taluka, Choryasi, Un, Surat, Gujarat 394230 (CIN: U38300GJ2026PTC181359). We operate a textile recovery facility in Sachin GIDC, Surat, as a joint venture between ReCircle and Alliance InfiTex.",
             ],
         },
         {
@@ -68,7 +68,7 @@ export const PRIVACY_POLICY = {
         {
             heading: "Contact Us",
             body: [
-                "For any privacy question or request, contact us at info@recircleinfitex.in or +91 95370 07436, or write to ReCircle infiTex Private Limited, Plot No. B/4, Block No. 249/B, Sachin Industrial Estate GIDC, Taluka, Choryasi, Un, Surat, Gujarat 394230.",
+                "For any privacy question or request, contact us at info@recircleinfitex.in or +91 95370 07436, or write to ReCircle InfiTex Private Limited, Plot No. B/4, Block No. 249/B, Sachin Industrial Estate GIDC, Taluka, Choryasi, Un, Surat, Gujarat 394230.",
             ],
         },
     ],
@@ -78,12 +78,12 @@ export const TERMS_OF_USAGE = {
     index: "02",
     title: "Terms of Usage",
     updated: "Last updated: September 2026",
-    intro: "These terms govern your use of the ReCircle infiTex Private Limited website. By accessing or using this site, you accept these terms in full. If you do not agree, please do not use this website.",
+    intro: "These terms govern your use of the ReCircle InfiTex Private Limited website. By accessing or using this site, you accept these terms in full. If you do not agree, please do not use this website.",
     sections: [
         {
             heading: "About This Website",
             body: [
-                "This website provides general information about ReCircle infiTex Private Limited, our textile recovery facility in Sachin GIDC, Surat, and the recovered polyester feedstock we supply. Content is provided for general information only and may be updated, changed or withdrawn at any time without notice.",
+                "This website provides general information about ReCircle InfiTex Private Limited, our textile recovery facility in Sachin GIDC, Surat, and the recovered polyester feedstock we supply. Content is provided for general information only and may be updated, changed or withdrawn at any time without notice.",
             ],
         },
         {
@@ -95,7 +95,7 @@ export const TERMS_OF_USAGE = {
         {
             heading: "Intellectual Property",
             body: [
-                "All content on this website \u2014 including text, imagery, the technical workflow diagram, and the ReCircle infiTex, ReCircle, Alliance InfiTex, Alliance Fibres and CAIF brand assets \u2014 is the property of ReCircle infiTex Private Limited or its partners and is protected by applicable intellectual property laws. You may not reproduce, distribute or reuse any content without our prior written consent.",
+                "All content on this website \u2014 including text, imagery, the technical workflow diagram, and the ReCircle InfiTex, ReCircle, Alliance InfiTex, Alliance Fibres and CAIF brand assets \u2014 is the property of ReCircle InfiTex Private Limited or its partners and is protected by applicable intellectual property laws. You may not reproduce, distribute or reuse any content without our prior written consent.",
             ],
         },
         {
@@ -113,7 +113,7 @@ export const TERMS_OF_USAGE = {
         {
             heading: "Limitation of Liability",
             body: [
-                "To the fullest extent permitted by law, ReCircle infiTex Private Limited will not be liable for any indirect or consequential loss, or any loss of business, revenue or data, arising from your use of this website.",
+                "To the fullest extent permitted by law, ReCircle InfiTex Private Limited will not be liable for any indirect or consequential loss, or any loss of business, revenue or data, arising from your use of this website.",
             ],
         },
         {
@@ -131,7 +131,7 @@ export const TERMS_OF_USAGE = {
         {
             heading: "Contact Us",
             body: [
-                "For questions about these terms, contact us at info@recircleinfitex.in or +91 95370 07436, or write to ReCircle infiTex Private Limited, Plot No. B/4, Block No. 249/B, Sachin Industrial Estate GIDC, Taluka, Choryasi, Un, Surat, Gujarat 394230.",
+                "For questions about these terms, contact us at info@recircleinfitex.in or +91 95370 07436, or write to ReCircle InfiTex Private Limited, Plot No. B/4, Block No. 249/B, Sachin Industrial Estate GIDC, Taluka, Choryasi, Un, Surat, Gujarat 394230.",
             ],
         },
     ],

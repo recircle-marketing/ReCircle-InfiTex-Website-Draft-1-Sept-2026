@@ -16,7 +16,7 @@ export default function Hero() {
             <motion.div className="absolute inset-0" style={{ y: bgY, scale: bgScale }}>
                 <motion.img
                     src="/assets/hero-facility.png"
-                    alt="Sorted polyester textile waste bales inside the ReCircle infiTex recovery facility"
+                    alt="Sorted polyester textile waste bales inside the ReCircle InfiTex recovery facility"
                     className="h-full w-full object-cover"
                     initial={{ scale: 1.14, opacity: 0.6 }}
                     animate={{ scale: 1, opacity: 1 }}
