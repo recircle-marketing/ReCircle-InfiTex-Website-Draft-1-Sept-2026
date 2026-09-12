@@ -74,7 +74,7 @@ export default function JointVenture() {
                                     data-testid="jv-logo-recircle"
                                 />
                             </div>
-                            <span className="type-eyebrow text-[#2C2C2C]/40" aria-hidden="true">+</span>
+                            <span className="type-eyebrow text-[#2C2C2C]/40" aria-hidden="true">X</span>
                             <div className="flex h-[68px] items-center rounded-md border border-[#E3E8EE] bg-white px-4 transition-[transform,box-shadow] duration-500 hover:-translate-y-1 hover:shadow-[0_16px_40px_-16px_rgba(1,41,138,0.25)] sm:h-28 sm:px-10">
                                 <img
                                     src="/assets/alliance-logo.webp"
