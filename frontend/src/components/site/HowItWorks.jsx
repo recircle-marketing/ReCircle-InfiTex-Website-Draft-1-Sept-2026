@@ -7,17 +7,17 @@ export default function HowItWorks() {
     const [open, setOpen] = useState(false);
 
     return (
-        <section id="how-it-works" data-testid="how-it-works-section" className="bg-white py-24 lg:py-32">
+        <section id="how-it-works" data-testid="how-it-works-section" className="bg-[#01298A] py-24 text-white lg:py-32">
             <div className="container-x">
                 <div className="mx-auto max-w-[800px] text-center">
                     <Reveal>
-                        <Chapter index="04" label="How It Works" center />
+                        <Chapter index="04" label="How It Works" center dark />
                     </Reveal>
                     <Reveal delay={0.1}>
-                        <h2 className="type-h2 mt-9 text-black">From Waste to Recovered Feedstock</h2>
+                        <h2 className="type-h2 mt-9 text-white">From Waste to Recovered Feedstock</h2>
                     </Reveal>
                     <Reveal delay={0.2}>
-                        <p className="type-body-sm mt-7 text-[#2C2C2C]">
+                        <p className="type-body-sm mt-7 text-white/85">
                             The facility runs a structured sorting and pre-processing workflow that turns mixed
                             textile waste into recycler-ready material. The flowchart below maps the complete
                             process, from sourcing through to final output.
@@ -31,7 +31,7 @@ export default function HowItWorks() {
                             type="button"
                             data-testid="lightbox-expand-button"
                             onClick={() => setOpen(true)}
-                            className="group relative block w-full cursor-zoom-in rounded-lg border border-[#E3E8EE] bg-white p-2 transition-shadow duration-500 hover:shadow-[0_30px_80px_-30px_rgba(1,41,138,0.3)] sm:p-4"
+                            className="group relative block w-full cursor-zoom-in rounded-lg border border-white/25 bg-white p-2 transition-shadow duration-500 hover:shadow-[0_30px_80px_-24px_rgba(0,0,0,0.5)] sm:p-4"
                             aria-label="Expand the technical workflow flowchart"
                         >
                             <img
