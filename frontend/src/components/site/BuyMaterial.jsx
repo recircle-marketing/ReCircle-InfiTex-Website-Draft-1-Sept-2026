@@ -36,7 +36,7 @@ export default function BuyMaterial() {
                         <Chapter index="06" label="Recovered Material" />
                     </Reveal>
                     <Reveal delay={0.1}>
-                        <h2 className="type-h2 mt-9 text-black">Direct Sales of Material</h2>
+                        <h2 className="type-h2 mt-9 text-black">Recycled Feedstock Portfolio for Sale</h2>
                     </Reveal>
                     <Reveal delay={0.2}>
                         <p className="type-body-sm mt-7 text-[#2C2C2C]">
