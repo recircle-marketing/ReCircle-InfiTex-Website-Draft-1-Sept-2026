@@ -62,7 +62,7 @@ export default function Contact() {
             <div className="container-x grid gap-16 lg:grid-cols-2 lg:gap-20">
                 <div>
                     <Reveal>
-                        <Chapter index="11" label="Contact and Enquiry" />
+                        <Chapter index="10" label="Contact and Enquiry" />
                     </Reveal>
                     <Reveal delay={0.1}>
                         <h2 className="type-h2 mt-9 text-black">Build Circularity Into Your Supply Chain</h2>

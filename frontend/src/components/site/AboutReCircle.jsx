@@ -21,7 +21,7 @@ export default function AboutReCircle() {
 
                 <div>
                     <Reveal>
-                        <Chapter index="09" label="About ReCircle" />
+                        <Chapter index="08" label="About ReCircle" />
                     </Reveal>
                     <Reveal delay={0.1}>
                         <h2 className="type-h2 mt-9 text-black">About ReCircle</h2>

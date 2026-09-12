@@ -8,7 +8,7 @@ export default function Technology() {
             <div className="container-x grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
                 <div>
                     <Reveal>
-                        <Chapter index="06" label="Technology" />
+                        <Chapter index="05" label="Technology" />
                     </Reveal>
                     <Reveal delay={0.1}>
                         <h2 className="type-h2 mt-9 text-black">Built on End-to-End Traceability</h2>

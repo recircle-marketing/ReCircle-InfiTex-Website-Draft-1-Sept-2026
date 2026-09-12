@@ -9,7 +9,6 @@ import Marquee from "@/components/site/Marquee";
 import IntroStrip from "@/components/site/IntroStrip";
 import JointVenture from "@/components/site/JointVenture";
 import WhySurat from "@/components/site/WhySurat";
-import Capacity from "@/components/site/Capacity";
 import HowItWorks from "@/components/site/HowItWorks";
 import Technology from "@/components/site/Technology";
 import BuyMaterial from "@/components/site/BuyMaterial";
@@ -29,7 +28,6 @@ const HomePage = () => (
         <IntroStrip />
         <JointVenture />
         <WhySurat />
-        <Capacity />
         <HowItWorks />
         <Technology />
         <BuyMaterial />

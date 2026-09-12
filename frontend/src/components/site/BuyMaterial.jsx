@@ -33,18 +33,16 @@ export default function BuyMaterial() {
             <div className="container-x">
                 <div className="max-w-3xl">
                     <Reveal>
-                        <Chapter index="07" label="Recovered Material" />
+                        <Chapter index="06" label="Recovered Material" />
                     </Reveal>
                     <Reveal delay={0.1}>
-                        <h2 className="type-h2 mt-9 text-black">
-                            Source Recycled Polyester Feedstock Directly From the Facility
-                        </h2>
+                        <h2 className="type-h2 mt-9 text-black">Direct Sales of Material</h2>
                     </Reveal>
                     <Reveal delay={0.2}>
                         <p className="type-body-sm mt-7 text-[#2C2C2C]">
                             The facility supplies recovered polyester feedstock to Textile-to-Textile Recyclers across
-                            two recycling grades. Every batch moves through ClimaOne, so buyers get full traceability
-                            from source to output.
+                            two recycling grades. Every batch is tracked through ClimaOne, ensuring that buyers
+                            receive complete traceability from source to output.
                         </p>
                     </Reveal>
                 </div>

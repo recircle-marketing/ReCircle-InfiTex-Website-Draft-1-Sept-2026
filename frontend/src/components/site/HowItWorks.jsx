@@ -11,7 +11,7 @@ export default function HowItWorks() {
             <div className="container-x">
                 <div className="mx-auto max-w-[800px] text-center">
                     <Reveal>
-                        <Chapter index="05" label="How It Works" center />
+                        <Chapter index="04" label="How It Works" center />
                     </Reveal>
                     <Reveal delay={0.1}>
                         <h2 className="type-h2 mt-9 text-black">From Waste to Recovered Feedstock</h2>

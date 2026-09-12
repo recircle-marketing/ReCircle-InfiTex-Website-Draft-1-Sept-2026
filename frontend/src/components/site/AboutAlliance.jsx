@@ -7,7 +7,7 @@ export default function AboutAlliance() {
             <div className="container-x grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
                 <div className="order-2 lg:order-1">
                     <Reveal>
-                        <Chapter index="10" label="About Alliance InfiTex" />
+                        <Chapter index="09" label="About Alliance InfiTex" />
                     </Reveal>
                     <Reveal delay={0.1}>
                         <h2 className="type-h2 mt-9 text-black">About Alliance InfiTex</h2>

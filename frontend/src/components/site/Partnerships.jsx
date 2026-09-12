@@ -22,7 +22,7 @@ export default function Partnerships() {
         <section id="partners" data-testid="partnerships-section" className="bg-[#F4F6F8] py-24 lg:py-32">
             <div className="container-x">
                 <Reveal>
-                    <Chapter index="08" label="Strategic Partnerships" />
+                    <Chapter index="07" label="Strategic Partnerships" />
                 </Reveal>
                 <Reveal delay={0.1}>
                     <h2 className="type-h2 mt-9 text-black">Backed by Industry Experience</h2>

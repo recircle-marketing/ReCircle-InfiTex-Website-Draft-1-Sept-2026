@@ -50,8 +50,8 @@ export default function WhySurat() {
                         </Reveal>
                         <Reveal delay={0.2}>
                             <p className="type-body-sm mt-7 text-[#2C2C2C]">
-                                Surat is one of India&apos;s largest hubs for polyester and synthetic textile
-                                manufacturing. The city generates around{" "}
+                                Surat is one of India&apos;s largest hubs for polyester textile manufacturing. The
+                                city generates around{" "}
                                 <a
                                     href="https://www.texmin.gov.in/static/uploads/2026/03/407c2f186a2044a4497c9c9803d16a2c.pdf"
                                     target="_blank"
